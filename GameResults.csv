@@ -1,0 +1,891 @@
+"GameCode","Year","Week","Manager","Opponent","Location","Outcome","TeamScore","OpponentScore","Season","Bracket"
+-65,2015,"1","Nick Van Dyke","Josh Sexton",NA,"Win",73,NA,"Regular",NA
+-65,2015,"1","Josh Sexton","Nick Van Dyke",NA,"Lose",NA,73,"Regular",NA
+-64,2015,"1","Kenneth Amaya","Michael Alexander",NA,"Lose",102,119,"Regular",NA
+-64,2015,"1","Michael Alexander","Kenneth Amaya",NA,"Win",119,102,"Regular",NA
+-63,2015,"1","Nick Hawkes","Nick Slawson",NA,"Lose",86,104,"Regular",NA
+-63,2015,"1","Nick Slawson","Nick Hawkes",NA,"Win",104,86,"Regular",NA
+-62,2015,"1","Matt Betz","Dominic Decono",NA,"Lose",77,100,"Regular",NA
+-62,2015,"1","Dominic Decono","Matt Betz",NA,"Win",100,77,"Regular",NA
+-61,2015,"1","Derrick Parham","Ethan Brown",NA,"Lose",71,131,"Regular",NA
+-61,2015,"1","Ethan Brown","Derrick Parham",NA,"Win",131,71,"Regular",NA
+-60,2015,"2","Kenneth Amaya","Matt Betz",NA,"Win",72,58,"Regular",NA
+-60,2015,"2","Matt Betz","Kenneth Amaya",NA,"Lose",58,72,"Regular",NA
+-59,2015,"2","Michael Alexander","Nick Van Dyke",NA,"Lose",84,107,"Regular",NA
+-59,2015,"2","Nick Van Dyke","Michael Alexander",NA,"Win",107,84,"Regular",NA
+-58,2015,"2","Nick Hawkes","Dominic Decono",NA,"Win",102,74,"Regular",NA
+-58,2015,"2","Dominic Decono","Nick Hawkes",NA,"Lose",74,102,"Regular",NA
+-57,2015,"2","Nick Slawson","Ethan Brown",NA,"Win",114,70,"Regular",NA
+-57,2015,"2","Ethan Brown","Nick Slawson",NA,"Lose",70,114,"Regular",NA
+-56,2015,"2","Derrick Parham","Josh Sexton",NA,"Win",81,NA,"Regular",NA
+-56,2015,"2","Josh Sexton","Derrick Parham",NA,"Lose",NA,81,"Regular",NA
+-55,2015,"3","Nick Slawson","Josh Sexton",NA,"Win",NA,NA,"Regular",NA
+-55,2015,"3","Josh Sexton","Nick Slawson",NA,"Lose",NA,NA,"Regular",NA
+-54,2015,"3","Matt Betz","Michael Alexander",NA,"Win",90,57,"Regular",NA
+-54,2015,"3","Michael Alexander","Matt Betz",NA,"Lose",57,90,"Regular",NA
+-53,2015,"3","Ethan Brown","Dominic Decono",NA,"Win",105,98,"Regular",NA
+-53,2015,"3","Dominic Decono","Ethan Brown",NA,"Lose",98,105,"Regular",NA
+-52,2015,"3","Kenneth Amaya","Nick Hawkes",NA,"Lose",93,148,"Regular",NA
+-52,2015,"3","Nick Hawkes","Kenneth Amaya",NA,"Win",148,93,"Regular",NA
+-51,2015,"3","Derrick Parham","Nick Van Dyke",NA,"Lose",107,117,"Regular",NA
+-51,2015,"3","Nick Van Dyke","Derrick Parham",NA,"Win",117,107,"Regular",NA
+-50,2015,"4","Matt Betz","Derrick Parham",NA,"Lose",71,79,"Regular",NA
+-50,2015,"4","Derrick Parham","Matt Betz",NA,"Win",79,71,"Regular",NA
+-49,2015,"4","Kenneth Amaya","Dominic Decono",NA,"Lose",77,87,"Regular",NA
+-49,2015,"4","Dominic Decono","Kenneth Amaya",NA,"Win",87,77,"Regular",NA
+-48,2015,"4","Ethan Brown","Josh Sexton",NA,"Win",81,38,"Regular",NA
+-48,2015,"4","Josh Sexton","Ethan Brown",NA,"Lose",38,81,"Regular",NA
+-47,2015,"4","Nick Slawson","Nick Van Dyke",NA,"Lose",66,81,"Regular",NA
+-47,2015,"4","Nick Van Dyke","Nick Slawson",NA,"Win",81,66,"Regular",NA
+-46,2015,"4","Nick Hawkes","Michael Alexander",NA,"Lose",80,120,"Regular",NA
+-46,2015,"4","Michael Alexander","Nick Hawkes",NA,"Win",120,80,"Regular",NA
+-45,2015,"5","Kenneth Amaya","Josh Sexton",NA,"Win",84,82,"Regular",NA
+-45,2015,"5","Josh Sexton","Kenneth Amaya",NA,"Lose",82,84,"Regular",NA
+-44,2015,"5","Derrick Parham","Nick Slawson",NA,"Win",85,59,"Regular",NA
+-44,2015,"5","Nick Slawson","Derrick Parham",NA,"Lose",59,85,"Regular",NA
+-43,2015,"5","Michael Alexander","Dominic Decono",NA,"Win",98,66,"Regular",NA
+-43,2015,"5","Dominic Decono","Michael Alexander",NA,"Lose",66,98,"Regular",NA
+-42,2015,"5","Matt Betz","Nick Hawkes",NA,"Lose",89,92,"Regular",NA
+-42,2015,"5","Nick Hawkes","Matt Betz",NA,"Win",92,89,"Regular",NA
+-41,2015,"5","Nick Van Dyke","Ethan Brown",NA,"Lose",70,109,"Regular",NA
+-41,2015,"5","Ethan Brown","Nick Van Dyke",NA,"Win",109,70,"Regular",NA
+-40,2015,"6","Kenneth Amaya","Derrick Parham",NA,"Lose",91,120,"Regular",NA
+-40,2015,"6","Derrick Parham","Kenneth Amaya",NA,"Win",120,91,"Regular",NA
+-39,2015,"6","Michael Alexander","Nick Slawson",NA,"Win",113,91,"Regular",NA
+-39,2015,"6","Nick Slawson","Michael Alexander",NA,"Lose",91,113,"Regular",NA
+-38,2015,"6","Matt Betz","Ethan Brown",NA,"Lose",74,102,"Regular",NA
+-38,2015,"6","Ethan Brown","Matt Betz",NA,"Win",102,74,"Regular",NA
+-37,2015,"6","Nick Hawkes","Josh Sexton",NA,"Win",77,75,"Regular",NA
+-37,2015,"6","Josh Sexton","Nick Hawkes",NA,"Lose",75,77,"Regular",NA
+-36,2015,"6","Nick Van Dyke","Dominic Decono",NA,"Lose",64,130,"Regular",NA
+-36,2015,"6","Dominic Decono","Nick Van Dyke",NA,"Win",130,64,"Regular",NA
+-35,2015,"7","Derrick Parham","Nick Hawkes",NA,"Win",NA,NA,"Regular",NA
+-35,2015,"7","Nick Hawkes","Derrick Parham",NA,"Lose",NA,NA,"Regular",NA
+-34,2015,"7","Michael Alexander","Josh Sexton",NA,"Win",NA,NA,"Regular",NA
+-34,2015,"7","Josh Sexton","Michael Alexander",NA,"Lose",NA,NA,"Regular",NA
+-33,2015,"7","Matt Betz","Nick Van Dyke",NA,"Lose",NA,NA,"Regular",NA
+-33,2015,"7","Nick Van Dyke","Matt Betz",NA,"Win",NA,NA,"Regular",NA
+-32,2015,"7","Nick Slawson","Dominic Decono",NA,"Win",NA,NA,"Regular",NA
+-32,2015,"7","Dominic Decono","Nick Slawson",NA,"Lose",NA,NA,"Regular",NA
+-31,2015,"7","Kenneth Amaya","Ethan Brown",NA,"Win",NA,NA,"Regular",NA
+-31,2015,"7","Ethan Brown","Kenneth Amaya",NA,"Lose",NA,NA,"Regular",NA
+-30,2015,"8","Kenneth Amaya","Nick Van Dyke",NA,"Win",109,51,"Regular",NA
+-30,2015,"8","Nick Van Dyke","Kenneth Amaya",NA,"Lose",51,109,"Regular",NA
+-29,2015,"8","Nick Hawkes","Ethan Brown",NA,"Win",100,88,"Regular",NA
+-29,2015,"8","Ethan Brown","Nick Hawkes",NA,"Lose",88,100,"Regular",NA
+-28,2015,"8","Derrick Parham","Michael Alexander",NA,"Lose",85,108,"Regular",NA
+-28,2015,"8","Michael Alexander","Derrick Parham",NA,"Win",108,85,"Regular",NA
+-27,2015,"8","Matt Betz","Nick Slawson",NA,"Win",110,70,"Regular",NA
+-27,2015,"8","Nick Slawson","Matt Betz",NA,"Lose",70,110,"Regular",NA
+-26,2015,"8","Josh Sexton","Dominic Decono",NA,"Win",NA,NA,"Regular",NA
+-26,2015,"8","Dominic Decono","Josh Sexton",NA,"Lose",NA,NA,"Regular",NA
+-25,2015,"9","Matt Betz","Nick Hawkes",NA,"Lose",96,104,"Regular",NA
+-25,2015,"9","Nick Hawkes","Matt Betz",NA,"Win",104,96,"Regular",NA
+-24,2015,"9","Michael Alexander","Dominic Decono",NA,"Lose",82,111,"Regular",NA
+-24,2015,"9","Dominic Decono","Michael Alexander",NA,"Win",111,82,"Regular",NA
+-23,2015,"9","Derrick Parham","Ethan Brown",NA,"Lose",89,96,"Regular",NA
+-23,2015,"9","Ethan Brown","Derrick Parham",NA,"Win",96,89,"Regular",NA
+-22,2015,"9","Kenneth Amaya","Nick Slawson",NA,"Lose",96,143,"Regular",NA
+-22,2015,"9","Nick Slawson","Kenneth Amaya",NA,"Win",143,96,"Regular",NA
+-21,2015,"9","Nick Van Dyke","Josh Sexton",NA,"Lose",81,101,"Regular",NA
+-21,2015,"9","Josh Sexton","Nick Van Dyke",NA,"Win",101,81,"Regular",NA
+-20,2015,"10","Nick Hawkes","Nick Van Dyke",NA,"Win",109,43,"Regular",NA
+-20,2015,"10","Nick Van Dyke","Nick Hawkes",NA,"Lose",43,109,"Regular",NA
+-19,2015,"10","Matt Betz","Dominic Decono",NA,"Win",87,58,"Regular",NA
+-19,2015,"10","Dominic Decono","Matt Betz",NA,"Lose",58,87,"Regular",NA
+-18,2015,"10","Derrick Parham","Josh Sexton",NA,"Win",74,73,"Regular",NA
+-18,2015,"10","Josh Sexton","Derrick Parham",NA,"Lose",73,74,"Regular",NA
+-17,2015,"10","Kenneth Amaya","Michael Alexander",NA,"Lose",81,100,"Regular",NA
+-17,2015,"10","Michael Alexander","Kenneth Amaya",NA,"Win",100,81,"Regular",NA
+-16,2015,"10","Nick Slawson","Ethan Brown",NA,"Win",105,93,"Regular",NA
+-16,2015,"10","Ethan Brown","Nick Slawson",NA,"Lose",93,105,"Regular",NA
+-15,2015,"11","Nick Slawson","Josh Sexton",NA,"Lose",57,82,"Regular",NA
+-15,2015,"11","Josh Sexton","Nick Slawson",NA,"Win",82,57,"Regular",NA
+-14,2015,"11","Michael Alexander","Ethan Brown",NA,"Win",108,66,"Regular",NA
+-14,2015,"11","Ethan Brown","Michael Alexander",NA,"Lose",66,108,"Regular",NA
+-13,2015,"11","Derrick Parham","Nick Van Dyke",NA,"Win",76,63,"Regular",NA
+-13,2015,"11","Nick Van Dyke","Derrick Parham",NA,"Lose",63,76,"Regular",NA
+-12,2015,"11","Kenneth Amaya","Matt Betz",NA,"Win",NA,NA,"Regular",NA
+-12,2015,"11","Matt Betz","Kenneth Amaya",NA,"Lose",NA,NA,"Regular",NA
+-11,2015,"11","Nick Hawkes","Dominic Decono",NA,"Lose",60,87,"Regular",NA
+-11,2015,"11","Dominic Decono","Nick Hawkes",NA,"Win",87,60,"Regular",NA
+-10,2015,"12","Derrick Parham","Dominic Decono",NA,"Lose",72,92,"Regular",NA
+-10,2015,"12","Dominic Decono","Derrick Parham",NA,"Win",92,72,"Regular",NA
+-9,2015,"12","Ethan Brown","Josh Sexton",NA,"Win",69,39,"Regular",NA
+-9,2015,"12","Josh Sexton","Ethan Brown",NA,"Lose",39,69,"Regular",NA
+-8,2015,"12","Nick Slawson","Nick Van Dyke",NA,"Lose",65,70,"Regular",NA
+-8,2015,"12","Nick Van Dyke","Nick Slawson",NA,"Win",70,65,"Regular",NA
+-7,2015,"12","Kenneth Amaya","Nick Hawkes",NA,"Win",102,100,"Regular",NA
+-7,2015,"12","Nick Hawkes","Kenneth Amaya",NA,"Lose",100,102,"Regular",NA
+-6,2015,"12","Matt Betz","Michael Alexander",NA,"Win",164,115,"Regular",NA
+-6,2015,"12","Michael Alexander","Matt Betz",NA,"Lose",115,164,"Regular",NA
+-5,2015,"13","Matt Betz","Josh Sexton",NA,"Win",119,71,"Regular",NA
+-5,2015,"13","Josh Sexton","Matt Betz",NA,"Lose",71,119,"Regular",NA
+-4,2015,"13","Nick Hawkes","Michael Alexander",NA,"Lose",97,133,"Regular",NA
+-4,2015,"13","Michael Alexander","Nick Hawkes",NA,"Win",133,97,"Regular",NA
+-3,2015,"13","Kenneth Amaya","Dominic Decono",NA,"Win",105,75,"Regular",NA
+-3,2015,"13","Dominic Decono","Kenneth Amaya",NA,"Lose",75,105,"Regular",NA
+-2,2015,"13","Nick Van Dyke","Ethan Brown",NA,"Win",104,61,"Regular",NA
+-2,2015,"13","Ethan Brown","Nick Van Dyke",NA,"Lose",61,104,"Regular",NA
+-1,2015,"13","Derrick Parham","Nick Slawson",NA,"Lose",88,113,"Regular",NA
+-1,2015,"13","Nick Slawson","Derrick Parham",NA,"Win",113,88,"Regular",NA
+1,2016,"1","Derrick Parham","Nick Hawkes","Away","Lose",79,114,"Regular",NA
+1,2016,"1","Nick Hawkes","Derrick Parham","Home","Win",114,79,"Regular",NA
+2,2016,"1","Nick Van Dyke","Dominic Decono","Away","Lose",77,91,"Regular",NA
+2,2016,"1","Dominic Decono","Nick Van Dyke","Home","Win",91,77,"Regular",NA
+3,2016,"1","Ethan Brown","Josh Sexton","Away","Lose",68,109,"Regular",NA
+3,2016,"1","Josh Sexton","Ethan Brown","Home","Win",109,68,"Regular",NA
+4,2016,"1","Kenneth Amaya","Matt Betz","Away","Win",109,93,"Regular",NA
+4,2016,"1","Matt Betz","Kenneth Amaya","Home","Lose",93,109,"Regular",NA
+5,2016,"1","Michael Alexander","Nick Slawson","Away","Lose",110,114,"Regular",NA
+5,2016,"1","Nick Slawson","Michael Alexander","Home","Win",114,110,"Regular",NA
+6,2016,"2","Derrick Parham","Ethan Brown","Away","Lose",68,81,"Regular",NA
+6,2016,"2","Ethan Brown","Derrick Parham","Home","Win",81,68,"Regular",NA
+7,2016,"2","Josh Sexton","Dominic Decono","Home","Win",112,111,"Regular",NA
+7,2016,"2","Dominic Decono","Josh Sexton","Away","Lose",111,112,"Regular",NA
+8,2016,"2","Matt Betz","Nick Slawson","Home","Lose",71,86,"Regular",NA
+8,2016,"2","Nick Slawson","Matt Betz","Away","Win",86,71,"Regular",NA
+9,2016,"2","Kenneth Amaya","Nick Hawkes","Home","Win",110,95,"Regular",NA
+9,2016,"2","Nick Hawkes","Kenneth Amaya","Away","Lose",95,110,"Regular",NA
+10,2016,"2","Michael Alexander","Nick Van Dyke","Home","Win",92,74,"Regular",NA
+10,2016,"2","Nick Van Dyke","Michael Alexander","Away","Lose",74,92,"Regular",NA
+11,2016,"3","Derrick Parham","Dominic Decono","Home","Lose",95,136,"Regular",NA
+11,2016,"3","Dominic Decono","Derrick Parham","Away","Win",136,95,"Regular",NA
+12,2016,"3","Nick Hawkes","Nick Slawson","Home","Lose",91,96,"Regular",NA
+12,2016,"3","Nick Slawson","Nick Hawkes","Away","Win",96,91,"Regular",NA
+13,2016,"3","Kenneth Amaya","Ethan Brown","Home","Lose",61,90,"Regular",NA
+13,2016,"3","Ethan Brown","Kenneth Amaya","Away","Win",90,61,"Regular",NA
+14,2016,"3","Matt Betz","Michael Alexander","Away","Lose",70,74,"Regular",NA
+14,2016,"3","Michael Alexander","Matt Betz","Home","Win",74,70,"Regular",NA
+15,2016,"3","Nick Van Dyke","Josh Sexton","Home","Win",107,75,"Regular",NA
+15,2016,"3","Josh Sexton","Nick Van Dyke","Away","Lose",75,107,"Regular",NA
+16,2016,"4","Derrick Parham","Nick Van Dyke","Home","Win",111,83,"Regular",NA
+16,2016,"4","Nick Van Dyke","Derrick Parham","Away","Lose",83,111,"Regular",NA
+17,2016,"4","Ethan Brown","Dominic Decono","Away","Lose",87,88,"Regular",NA
+17,2016,"4","Dominic Decono","Ethan Brown","Home","Win",88,87,"Regular",NA
+18,2016,"4","Matt Betz","Josh Sexton","Home","Win",98,96,"Regular",NA
+18,2016,"4","Josh Sexton","Matt Betz","Away","Lose",96,98,"Regular",NA
+19,2016,"4","Kenneth Amaya","Nick Slawson","Away","Lose",68,71,"Regular",NA
+19,2016,"4","Nick Slawson","Kenneth Amaya","Home","Win",71,68,"Regular",NA
+20,2016,"4","Nick Hawkes","Michael Alexander","Home","Lose",71,106,"Regular",NA
+20,2016,"4","Michael Alexander","Nick Hawkes","Away","Win",106,71,"Regular",NA
+21,2016,"5","Derrick Parham","Josh Sexton","Away","Win",112,80,"Regular",NA
+21,2016,"5","Josh Sexton","Derrick Parham","Home","Lose",80,112,"Regular",NA
+22,2016,"5","Nick Slawson","Dominic Decono","Home","Win",100,67,"Regular",NA
+22,2016,"5","Dominic Decono","Nick Slawson","Away","Lose",67,100,"Regular",NA
+23,2016,"5","Nick Van Dyke","Ethan Brown","Away","Win",102,99,"Regular",NA
+23,2016,"5","Ethan Brown","Nick Van Dyke","Home","Lose",99,102,"Regular",NA
+24,2016,"5","Matt Betz","Nick Hawkes","Home","Lose",95,104,"Regular",NA
+24,2016,"5","Nick Hawkes","Matt Betz","Away","Win",104,95,"Regular",NA
+25,2016,"5","Kenneth Amaya","Michael Alexander","Home","Win",116,88,"Regular",NA
+25,2016,"5","Michael Alexander","Kenneth Amaya","Away","Lose",88,116,"Regular",NA
+26,2016,"6","Derrick Parham","Michael Alexander","Home","Lose",83,94,"Regular",NA
+26,2016,"6","Michael Alexander","Derrick Parham","Away","Win",94,83,"Regular",NA
+27,2016,"6","Nick Hawkes","Dominic Decono","Away","Win",99,65,"Regular",NA
+27,2016,"6","Dominic Decono","Nick Hawkes","Home","Lose",65,99,"Regular",NA
+28,2016,"6","Matt Betz","Ethan Brown","Away","Lose",54,125,"Regular",NA
+28,2016,"6","Ethan Brown","Matt Betz","Home","Win",125,54,"Regular",NA
+29,2016,"6","Nick Slawson","Josh Sexton","Away","Win",145,69,"Regular",NA
+29,2016,"6","Josh Sexton","Nick Slawson","Home","Lose",69,145,"Regular",NA
+30,2016,"6","Kenneth Amaya","Nick Van Dyke","Away","Lose",65,94,"Regular",NA
+30,2016,"6","Nick Van Dyke","Kenneth Amaya","Home","Win",94,65,"Regular",NA
+31,2016,"7","Kenneth Amaya","Derrick Parham","Home","Lose",70,94,"Regular",NA
+31,2016,"7","Derrick Parham","Kenneth Amaya","Away","Win",94,70,"Regular",NA
+32,2016,"7","Michael Alexander","Dominic Decono","Home","Lose",78,102,"Regular",NA
+32,2016,"7","Dominic Decono","Michael Alexander","Away","Win",102,78,"Regular",NA
+33,2016,"7","Nick Slawson","Ethan Brown","Home","Win",108,63,"Regular",NA
+33,2016,"7","Ethan Brown","Nick Slawson","Away","Lose",63,108,"Regular",NA
+34,2016,"7","Matt Betz","Nick Van Dyke","Home","Win",94,90,"Regular",NA
+34,2016,"7","Nick Van Dyke","Matt Betz","Away","Lose",90,94,"Regular",NA
+35,2016,"7","Nick Hawkes","Josh Sexton","Home","Win",81,66,"Regular",NA
+35,2016,"7","Josh Sexton","Nick Hawkes","Away","Lose",66,81,"Regular",NA
+36,2016,"8","Matt Betz","Derrick Parham","Away","Lose",81,103,"Regular",NA
+36,2016,"8","Derrick Parham","Matt Betz","Home","Win",103,81,"Regular",NA
+37,2016,"8","Kenneth Amaya","Dominic Decono","Away","Lose",83,99,"Regular",NA
+37,2016,"8","Dominic Decono","Kenneth Amaya","Home","Win",99,83,"Regular",NA
+38,2016,"8","Nick Hawkes","Ethan Brown","Away","Lose",78,81,"Regular",NA
+38,2016,"8","Ethan Brown","Nick Hawkes","Home","Win",81,78,"Regular",NA
+39,2016,"8","Michael Alexander","Josh Sexton","Away","Win",91,71,"Regular",NA
+39,2016,"8","Josh Sexton","Michael Alexander","Home","Lose",71,91,"Regular",NA
+40,2016,"8","Nick Slawson","Nick Van Dyke","Away","Lose",77,107,"Regular",NA
+40,2016,"8","Nick Van Dyke","Nick Slawson","Home","Win",107,77,"Regular",NA
+41,2016,"9","Derrick Parham","Nick Slawson","Away","Win",119,110,"Regular",NA
+41,2016,"9","Nick Slawson","Derrick Parham","Home","Lose",110,119,"Regular",NA
+42,2016,"9","Nick Van Dyke","Dominic Decono","Home","Win",95,85,"Regular",NA
+42,2016,"9","Dominic Decono","Nick Van Dyke","Away","Lose",85,95,"Regular",NA
+43,2016,"9","Ethan Brown","Josh Sexton","Home","Win",88,60,"Regular",NA
+43,2016,"9","Josh Sexton","Ethan Brown","Away","Lose",60,88,"Regular",NA
+44,2016,"9","Matt Betz","Nick Hawkes","Away","Lose",77,115,"Regular",NA
+44,2016,"9","Nick Hawkes","Matt Betz","Home","Win",115,77,"Regular",NA
+45,2016,"9","Kenneth Amaya","Michael Alexander","Away","Win",94,82,"Regular",NA
+45,2016,"9","Michael Alexander","Kenneth Amaya","Home","Lose",82,94,"Regular",NA
+46,2016,"10","Derrick Parham","Ethan Brown","Home","Lose",91,103,"Regular",NA
+46,2016,"10","Ethan Brown","Derrick Parham","Away","Win",103,91,"Regular",NA
+47,2016,"10","Josh Sexton","Dominic Decono","Away","Lose",109,153,"Regular",NA
+47,2016,"10","Dominic Decono","Josh Sexton","Home","Win",153,109,"Regular",NA
+48,2016,"10","Nick Hawkes","Nick Van Dyke","Home","Win",81,56,"Regular",NA
+48,2016,"10","Nick Van Dyke","Nick Hawkes","Away","Lose",56,81,"Regular",NA
+49,2016,"10","Kenneth Amaya","Matt Betz","Home","Lose",73,96,"Regular",NA
+49,2016,"10","Matt Betz","Kenneth Amaya","Away","Win",96,73,"Regular",NA
+50,2016,"10","Michael Alexander","Nick Slawson","Home","Win",93,86,"Regular",NA
+50,2016,"10","Nick Slawson","Michael Alexander","Away","Lose",86,93,"Regular",NA
+51,2016,"11","Derrick Parham","Dominic Decono","Away","Win",116,96,"Regular",NA
+51,2016,"11","Dominic Decono","Derrick Parham","Home","Lose",96,116,"Regular",NA
+52,2016,"11","Michael Alexander","Ethan Brown","Home","Win",90,75,"Regular",NA
+52,2016,"11","Ethan Brown","Michael Alexander","Away","Lose",75,90,"Regular",NA
+53,2016,"11","Matt Betz","Nick Slawson","Away","Win",91,76,"Regular",NA
+53,2016,"11","Nick Slawson","Matt Betz","Home","Lose",76,91,"Regular",NA
+54,2016,"11","Nick Van Dyke","Josh Sexton","Away","Win",91,66,"Regular",NA
+54,2016,"11","Josh Sexton","Nick Van Dyke","Home","Lose",66,91,"Regular",NA
+55,2016,"11","Kenneth Amaya","Nick Hawkes","Away","Win",83,58,"Regular",NA
+55,2016,"11","Nick Hawkes","Kenneth Amaya","Home","Lose",58,83,"Regular",NA
+56,2016,"12","Derrick Parham","Nick Van Dyke","Away","Win",127,91,"Regular",NA
+56,2016,"12","Nick Van Dyke","Derrick Parham","Home","Lose",91,127,"Regular",NA
+57,2016,"12","Ethan Brown","Dominic Decono","Home","Win",106,72,"Regular",NA
+57,2016,"12","Dominic Decono","Ethan Brown","Away","Lose",72,106,"Regular",NA
+58,2016,"12","Nick Hawkes","Nick Slawson","Away","Win",106,55,"Regular",NA
+58,2016,"12","Nick Slawson","Nick Hawkes","Home","Lose",55,106,"Regular",NA
+59,2016,"12","Matt Betz","Michael Alexander","Home","Win",100,71,"Regular",NA
+59,2016,"12","Michael Alexander","Matt Betz","Away","Lose",71,100,"Regular",NA
+60,2016,"12","Kenneth Amaya","Josh Sexton","Home","Lose",75,96,"Regular",NA
+60,2016,"12","Josh Sexton","Kenneth Amaya","Away","Win",96,75,"Regular",NA
+61,2016,"13","Derrick Parham","Josh Sexton","Home","Win",98,61,"Regular",NA
+61,2016,"13","Josh Sexton","Derrick Parham","Away","Lose",61,98,"Regular",NA
+62,2016,"13","Matt Betz","Dominic Decono","Home","Win",96,87,"Regular",NA
+62,2016,"13","Dominic Decono","Matt Betz","Away","Lose",87,96,"Regular",NA
+63,2016,"13","Nick Van Dyke","Ethan Brown","Home","Lose",100,117,"Regular",NA
+63,2016,"13","Ethan Brown","Nick Van Dyke","Away","Win",117,100,"Regular",NA
+64,2016,"13","Kenneth Amaya","Nick Slawson","Home","Lose",95,122,"Regular",NA
+64,2016,"13","Nick Slawson","Kenneth Amaya","Away","Win",122,95,"Regular",NA
+65,2016,"13","Nick Hawkes","Michael Alexander","Away","Lose",65,83,"Regular",NA
+65,2016,"13","Michael Alexander","Nick Hawkes","Home","Win",83,65,"Regular",NA
+66,2016,"14","Derrick Parham","Michael Alexander","Home","None",87,61,"Playoffs",1
+66,2016,"14","Michael Alexander","Derrick Parham","Away","None",61,87,"Playoffs",1
+67,2016,"14","Nick Hawkes","Dominic Decono","Home","None",58,88,"Playoffs",3
+67,2016,"14","Dominic Decono","Nick Hawkes","Away","None",88,58,"Playoffs",3
+68,2016,"14","Nick Slawson","Ethan Brown","Home","None",54,60,"Playoffs",2
+68,2016,"14","Ethan Brown","Nick Slawson","Away","None",60,54,"Playoffs",2
+69,2016,"14","Matt Betz","Nick Van Dyke","Away","None",70,66,"Playoffs",4
+69,2016,"14","Nick Van Dyke","Matt Betz","Home","None",66,70,"Playoffs",4
+70,2016,"14","Kenneth Amaya","Josh Sexton","Home","None",101,138,"Playoffs",5
+70,2016,"14","Josh Sexton","Kenneth Amaya","Away","None",138,101,"Playoffs",5
+71,2016,"15","Derrick Parham","Michael Alexander","Home","None",77,75,"Playoffs",1
+71,2016,"15","Michael Alexander","Derrick Parham","Away","None",75,77,"Playoffs",1
+72,2016,"15","Nick Hawkes","Dominic Decono","Home","None",85,67,"Playoffs",3
+72,2016,"15","Dominic Decono","Nick Hawkes","Away","None",67,85,"Playoffs",3
+73,2016,"15","Nick Slawson","Ethan Brown","Home","None",76,98,"Playoffs",2
+73,2016,"15","Ethan Brown","Nick Slawson","Away","None",98,76,"Playoffs",2
+74,2016,"15","Matt Betz","Nick Van Dyke","Away","None",87,93,"Playoffs",4
+74,2016,"15","Nick Van Dyke","Matt Betz","Home","None",93,87,"Playoffs",4
+75,2016,"15","Kenneth Amaya","Josh Sexton","Home","None",75,84,"Playoffs",5
+75,2016,"15","Josh Sexton","Kenneth Amaya","Away","None",84,75,"Playoffs",5
+76,2016,"16","Derrick Parham","Ethan Brown","Home","None",139,148,"Playoffs",1
+76,2016,"16","Ethan Brown","Derrick Parham","Away","None",148,139,"Playoffs",1
+77,2016,"16","Nick Van Dyke","Dominic Decono","Away","None",86,91,"Playoffs",3
+77,2016,"16","Dominic Decono","Nick Van Dyke","Home","None",91,86,"Playoffs",3
+78,2016,"16","Nick Hawkes","Josh Sexton","Home","None",112,95,"Playoffs",4
+78,2016,"16","Josh Sexton","Nick Hawkes","Away","None",95,112,"Playoffs",4
+79,2016,"16","Kenneth Amaya","Matt Betz","Away","None",118,84,"Playoffs",5
+79,2016,"16","Matt Betz","Kenneth Amaya","Home","None",84,118,"Playoffs",5
+80,2016,"16","Michael Alexander","Nick Slawson","Away","None",93,66,"Playoffs",2
+80,2016,"16","Nick Slawson","Michael Alexander","Home","None",66,93,"Playoffs",2
+81,2016,"17","Derrick Parham","Ethan Brown","Home","None",77,98,"Playoffs",1
+81,2016,"17","Ethan Brown","Derrick Parham","Away","None",98,77,"Playoffs",1
+82,2016,"17","Nick Van Dyke","Dominic Decono","Away","None",123,109,"Playoffs",3
+82,2016,"17","Dominic Decono","Nick Van Dyke","Home","None",109,123,"Playoffs",3
+83,2016,"17","Nick Hawkes","Josh Sexton","Home","None",114,76,"Playoffs",4
+83,2016,"17","Josh Sexton","Nick Hawkes","Away","None",76,114,"Playoffs",4
+84,2016,"17","Kenneth Amaya","Matt Betz","Away","None",74,73,"Playoffs",5
+84,2016,"17","Matt Betz","Kenneth Amaya","Home","None",73,74,"Playoffs",5
+85,2016,"17","Michael Alexander","Nick Slawson","Away","None",68,60,"Playoffs",2
+85,2016,"17","Nick Slawson","Michael Alexander","Home","None",60,68,"Playoffs",2
+86,2016,"Playoffs1","Derrick Parham","Michael Alexander","Home","Win",164,136,"Playoffs",1
+86,2016,"Playoffs1","Michael Alexander","Derrick Parham","Away","Lose",136,164,"Playoffs",1
+87,2016,"Playoffs1","Nick Hawkes","Dominic Decono","Home","Lose",143,155,"Playoffs",3
+87,2016,"Playoffs1","Dominic Decono","Nick Hawkes","Away","Win",155,143,"Playoffs",3
+88,2016,"Playoffs1","Nick Slawson","Ethan Brown","Home","Lose",130,158,"Playoffs",2
+88,2016,"Playoffs1","Ethan Brown","Nick Slawson","Away","Win",158,130,"Playoffs",2
+89,2016,"Playoffs1","Matt Betz","Nick Van Dyke","Away","Lose",157,159,"Playoffs",4
+89,2016,"Playoffs1","Nick Van Dyke","Matt Betz","Home","Win",159,157,"Playoffs",4
+90,2016,"Playoffs1","Kenneth Amaya","Josh Sexton","Home","Lose",176,222,"Playoffs",5
+90,2016,"Playoffs1","Josh Sexton","Kenneth Amaya","Away","Win",222,176,"Playoffs",5
+91,2016,"Playoffs2","Derrick Parham","Ethan Brown","Home","Lose",216,246,"Playoffs",1
+91,2016,"Playoffs2","Ethan Brown","Derrick Parham","Away","Win",246,216,"Playoffs",1
+92,2016,"Playoffs2","Nick Van Dyke","Dominic Decono","Away","Win",209,200,"Playoffs",3
+92,2016,"Playoffs2","Dominic Decono","Nick Van Dyke","Home","Lose",200,209,"Playoffs",3
+93,2016,"Playoffs2","Nick Hawkes","Josh Sexton","Home","Win",226,171,"Playoffs",4
+93,2016,"Playoffs2","Josh Sexton","Nick Hawkes","Away","Lose",171,226,"Playoffs",4
+94,2016,"Playoffs2","Kenneth Amaya","Matt Betz","Away","Lose",157,192,"Playoffs",5
+94,2016,"Playoffs2","Matt Betz","Kenneth Amaya","Home","Win",192,157,"Playoffs",5
+95,2016,"Playoffs2","Michael Alexander","Nick Slawson","Away","Win",161,126,"Playoffs",2
+95,2016,"Playoffs2","Nick Slawson","Michael Alexander","Home","Lose",126,161,"Playoffs",2
+100,2017,"1","Kenneth Amaya","Matt Betz","Away","Win",93,78,"Regular",NA
+100,2017,"1","Matt Betz","Kenneth Amaya","Home","Lose",78,93,"Regular",NA
+101,2017,"1","Derrick Parham","Nick Hawkes","Away","Lose",51,78,"Regular",NA
+101,2017,"1","Nick Hawkes","Derrick Parham","Home","Win",78,51,"Regular",NA
+102,2017,"1","Michael Alexander","Nick Slawson","Away","Win",75,66,"Regular",NA
+102,2017,"1","Nick Slawson","Michael Alexander","Home","Lose",66,75,"Regular",NA
+103,2017,"1","Nick Van Dyke","Dominic Decono","Away","Lose",61,76,"Regular",NA
+103,2017,"1","Dominic Decono","Nick Van Dyke","Home","Win",76,61,"Regular",NA
+104,2017,"1","Ethan Brown","Josh Sexton","Away","Win",109,80,"Regular",NA
+104,2017,"1","Josh Sexton","Ethan Brown","Home","Lose",80,109,"Regular",NA
+105,2017,"2","Matt Betz","Nick Slawson","Home","Win",104,90,"Regular",NA
+105,2017,"2","Nick Slawson","Matt Betz","Away","Lose",90,104,"Regular",NA
+106,2017,"2","Michael Alexander","Nick Van Dyke","Home","Lose",53,62,"Regular",NA
+106,2017,"2","Nick Van Dyke","Michael Alexander","Away","Win",62,53,"Regular",NA
+107,2017,"2","Kenneth Amaya","Nick Hawkes","Home","Win",104,68,"Regular",NA
+107,2017,"2","Nick Hawkes","Kenneth Amaya","Away","Lose",68,104,"Regular",NA
+108,2017,"2","Derrick Parham","Ethan Brown","Away","Win",84,83,"Regular",NA
+108,2017,"2","Ethan Brown","Derrick Parham","Home","Lose",83,84,"Regular",NA
+109,2017,"2","Josh Sexton","Dominic Decono","Home","Win",96,93,"Regular",NA
+109,2017,"2","Dominic Decono","Josh Sexton","Away","Lose",93,96,"Regular",NA
+110,2017,"3","Matt Betz","Michael Alexander","Away","Lose",65,88,"Regular",NA
+110,2017,"3","Michael Alexander","Matt Betz","Home","Win",88,65,"Regular",NA
+111,2017,"3","Kenneth Amaya","Ethan Brown","Home","Lose",83,117,"Regular",NA
+111,2017,"3","Ethan Brown","Kenneth Amaya","Away","Win",117,83,"Regular",NA
+112,2017,"3","Nick Van Dyke","Josh Sexton","Home","Win",98,77,"Regular",NA
+112,2017,"3","Josh Sexton","Nick Van Dyke","Away","Lose",77,98,"Regular",NA
+113,2017,"3","Nick Hawkes","Nick Slawson","Home","Lose",92,105,"Regular",NA
+113,2017,"3","Nick Slawson","Nick Hawkes","Away","Win",105,92,"Regular",NA
+114,2017,"3","Derrick Parham","Dominic Decono","Home","Lose",64,114,"Regular",NA
+114,2017,"3","Dominic Decono","Derrick Parham","Away","Win",114,64,"Regular",NA
+115,2017,"4","Matt Betz","Josh Sexton","Home","Lose",46,62,"Regular",NA
+115,2017,"4","Josh Sexton","Matt Betz","Away","Win",62,46,"Regular",NA
+116,2017,"4","Kenneth Amaya","Nick Slawson","Away","Lose",80,86,"Regular",NA
+116,2017,"4","Nick Slawson","Kenneth Amaya","Home","Win",86,80,"Regular",NA
+117,2017,"4","Ethan Brown","Dominic Decono","Away","Lose",87,98,"Regular",NA
+117,2017,"4","Dominic Decono","Ethan Brown","Home","Win",98,87,"Regular",NA
+118,2017,"4","Nick Hawkes","Michael Alexander","Home","Lose",75,87,"Regular",NA
+118,2017,"4","Michael Alexander","Nick Hawkes","Away","Win",87,75,"Regular",NA
+119,2017,"4","Derrick Parham","Nick Van Dyke","Home","Lose",90,107,"Regular",NA
+119,2017,"4","Nick Van Dyke","Derrick Parham","Away","Win",107,90,"Regular",NA
+120,2017,"5","Matt Betz","Nick Hawkes","Home","Lose",57,90,"Regular",NA
+120,2017,"5","Nick Hawkes","Matt Betz","Away","Win",90,57,"Regular",NA
+121,2017,"5","Nick Slawson","Dominic Decono","Home","Lose",71,84,"Regular",NA
+121,2017,"5","Dominic Decono","Nick Slawson","Away","Win",84,71,"Regular",NA
+122,2017,"5","Derrick Parham","Josh Sexton","Away","Lose",49,83,"Regular",NA
+122,2017,"5","Josh Sexton","Derrick Parham","Home","Win",83,49,"Regular",NA
+123,2017,"5","Kenneth Amaya","Michael Alexander","Home","Lose",88,130,"Regular",NA
+123,2017,"5","Michael Alexander","Kenneth Amaya","Away","Win",130,88,"Regular",NA
+124,2017,"5","Nick Van Dyke","Ethan Brown","Away","Win",108,53,"Regular",NA
+124,2017,"5","Ethan Brown","Nick Van Dyke","Home","Lose",53,108,"Regular",NA
+125,2017,"6","Matt Betz","Ethan Brown","Away","Win",88,74,"Regular",NA
+125,2017,"6","Ethan Brown","Matt Betz","Home","Lose",74,88,"Regular",NA
+126,2017,"6","Derrick Parham","Michael Alexander","Home","Win",136,66,"Regular",NA
+126,2017,"6","Michael Alexander","Derrick Parham","Away","Lose",66,136,"Regular",NA
+127,2017,"6","Kenneth Amaya","Nick Van Dyke","Away","Win",92,83,"Regular",NA
+127,2017,"6","Nick Van Dyke","Kenneth Amaya","Home","Lose",83,92,"Regular",NA
+128,2017,"6","Nick Slawson","Josh Sexton","Away","Lose",49,87,"Regular",NA
+128,2017,"6","Josh Sexton","Nick Slawson","Home","Win",87,49,"Regular",NA
+129,2017,"6","Nick Hawkes","Dominic Decono","Away","Win",94,79,"Regular",NA
+129,2017,"6","Dominic Decono","Nick Hawkes","Home","Lose",79,94,"Regular",NA
+130,2017,"7","Matt Betz","Nick Van Dyke","Home","Lose",87,119,"Regular",NA
+130,2017,"7","Nick Van Dyke","Matt Betz","Away","Win",119,87,"Regular",NA
+131,2017,"7","Kenneth Amaya","Derrick Parham","Home","Lose",69,119,"Regular",NA
+131,2017,"7","Derrick Parham","Kenneth Amaya","Away","Win",119,69,"Regular",NA
+132,2017,"7","Nick Slawson","Ethan Brown","Home","Lose",73,106,"Regular",NA
+132,2017,"7","Ethan Brown","Nick Slawson","Away","Win",106,73,"Regular",NA
+133,2017,"7","Nick Hawkes","Josh Sexton","Home","Lose",62,79,"Regular",NA
+133,2017,"7","Josh Sexton","Nick Hawkes","Away","Win",79,62,"Regular",NA
+134,2017,"7","Michael Alexander","Dominic Decono","Home","Lose",75,108,"Regular",NA
+134,2017,"7","Dominic Decono","Michael Alexander","Away","Win",108,75,"Regular",NA
+135,2017,"8","Matt Betz","Derrick Parham","Away","Lose",76,78,"Regular",NA
+135,2017,"8","Derrick Parham","Matt Betz","Home","Win",78,76,"Regular",NA
+136,2017,"8","Nick Slawson","Nick Van Dyke","Away","Lose",64,110,"Regular",NA
+136,2017,"8","Nick Van Dyke","Nick Slawson","Home","Win",110,64,"Regular",NA
+137,2017,"8","Nick Hawkes","Ethan Brown","Away","Lose",90,111,"Regular",NA
+137,2017,"8","Ethan Brown","Nick Hawkes","Home","Win",111,90,"Regular",NA
+138,2017,"8","Michael Alexander","Josh Sexton","Away","Win",70,64,"Regular",NA
+138,2017,"8","Josh Sexton","Michael Alexander","Home","Lose",64,70,"Regular",NA
+139,2017,"8","Kenneth Amaya","Dominic Decono","Away","Lose",64,112,"Regular",NA
+139,2017,"8","Dominic Decono","Kenneth Amaya","Home","Win",112,64,"Regular",NA
+140,2017,"9","Matt Betz","Nick Hawkes","Away","Lose",59,67,"Regular",NA
+140,2017,"9","Nick Hawkes","Matt Betz","Home","Win",68,59,"Regular",NA
+141,2017,"9","Derrick Parham","Nick Slawson","Away","Lose",65,80,"Regular",NA
+141,2017,"9","Nick Slawson","Derrick Parham","Home","Win",80,65,"Regular",NA
+142,2017,"9","Nick Van Dyke","Dominic Decono","Home","Win",110,89,"Regular",NA
+142,2017,"9","Dominic Decono","Nick Van Dyke","Away","Lose",89,110,"Regular",NA
+143,2017,"9","Kenneth Amaya","Michael Alexander","Away","Lose",45,86,"Regular",NA
+143,2017,"9","Michael Alexander","Kenneth Amaya","Home","Win",86,45,"Regular",NA
+144,2017,"9","Ethan Brown","Josh Sexton","Home","Win",103,66,"Regular",NA
+144,2017,"9","Josh Sexton","Ethan Brown","Away","Lose",66,103,"Regular",NA
+145,2017,"10","Kenneth Amaya","Matt Betz","Home","Win",91,64,"Regular",NA
+145,2017,"10","Matt Betz","Kenneth Amaya","Away","Lose",64,91,"Regular",NA
+146,2017,"10","Nick Hawkes","Nick Van Dyke","Home","Lose",63,87,"Regular",NA
+146,2017,"10","Nick Van Dyke","Nick Hawkes","Away","Win",87,63,"Regular",NA
+147,2017,"10","Michael Alexander","Nick Slawson","Home","Win",85,75,"Regular",NA
+147,2017,"10","Nick Slawson","Michael Alexander","Away","Lose",75,85,"Regular",NA
+148,2017,"10","Derrick Parham","Ethan Brown","Home","Win",84,70,"Regular",NA
+148,2017,"10","Ethan Brown","Derrick Parham","Away","Lose",70,84,"Regular",NA
+149,2017,"10","Josh Sexton","Dominic Decono","Away","Win",113,80,"Regular",NA
+149,2017,"10","Dominic Decono","Josh Sexton","Home","Lose",80,113,"Regular",NA
+150,2017,"11","Matt Betz","Nick Slawson","Away","Lose",88,123,"Regular",NA
+150,2017,"11","Nick Slawson","Matt Betz","Home","Win",123,88,"Regular",NA
+151,2017,"11","Michael Alexander","Ethan Brown","Home","Lose",86,108,"Regular",NA
+151,2017,"11","Ethan Brown","Michael Alexander","Away","Win",108,86,"Regular",NA
+152,2017,"11","Kenneth Amaya","Nick Hawkes","Away","Lose",66,91,"Regular",NA
+152,2017,"11","Nick Hawkes","Kenneth Amaya","Home","Win",91,66,"Regular",NA
+153,2017,"11","Nick Van Dyke","Josh Sexton","Away","Lose",71,93,"Regular",NA
+153,2017,"11","Josh Sexton","Nick Van Dyke","Home","Win",93,71,"Regular",NA
+154,2017,"11","Derrick Parham","Dominic Decono","Away","Win",122,103,"Regular",NA
+154,2017,"11","Dominic Decono","Derrick Parham","Home","Lose",103,122,"Regular",NA
+155,2017,"12","Matt Betz","Michael Alexander","Home","Win",87,78,"Regular",NA
+155,2017,"12","Michael Alexander","Matt Betz","Away","Lose",78,87,"Regular",NA
+156,2017,"12","Kenneth Amaya","Josh Sexton","Home","Win",85,81,"Regular",NA
+156,2017,"12","Josh Sexton","Kenneth Amaya","Away","Lose",81,85,"Regular",NA
+157,2017,"12","Ethan Brown","Dominic Decono","Home","Win",109,104,"Regular",NA
+157,2017,"12","Dominic Decono","Ethan Brown","Away","Lose",104,109,"Regular",NA
+158,2017,"12","Nick Hawkes","Nick Slawson","Away","Lose",72,114,"Regular",NA
+158,2017,"12","Nick Slawson","Nick Hawkes","Home","Win",114,72,"Regular",NA
+159,2017,"12","Derrick Parham","Nick Van Dyke","Away","Lose",92,116,"Regular",NA
+159,2017,"12","Nick Van Dyke","Derrick Parham","Home","Win",116,92,"Regular",NA
+160,2017,"13","Matt Betz","Dominic Decono","Home","Lose",75,138,"Regular",NA
+160,2017,"13","Dominic Decono","Matt Betz","Away","Win",138,75,"Regular",NA
+161,2017,"13","Kenneth Amaya","Nick Slawson","Home","Lose",88,90,"Regular",NA
+161,2017,"13","Nick Slawson","Kenneth Amaya","Away","Win",90,88,"Regular",NA
+162,2017,"13","Derrick Parham","Josh Sexton","Home","Win",98,93,"Regular",NA
+162,2017,"13","Josh Sexton","Derrick Parham","Away","Lose",93,98,"Regular",NA
+163,2017,"13","Nick Hawkes","Michael Alexander","Away","Lose",74,94,"Regular",NA
+163,2017,"13","Michael Alexander","Nick Hawkes","Home","Win",94,74,"Regular",NA
+164,2017,"13","Nick Van Dyke","Ethan Brown","Home","Win",108,79,"Regular",NA
+164,2017,"13","Ethan Brown","Nick Van Dyke","Away","Lose",79,108,"Regular",NA
+165,2017,"14","Nick Van Dyke","Ethan Brown","Home","None",74,102,"Playoffs",1
+165,2017,"14","Ethan Brown","Nick Van Dyke","Away","None",102,74,"Playoffs",1
+166,2017,"14","Michael Alexander","Dominic Decono","Home","None",85,108,"Playoffs",2
+166,2017,"14","Dominic Decono","Michael Alexander","Away","None",108,85,"Playoffs",2
+167,2017,"14","Matt Betz","Nick Hawkes","Away","None",65,109,"Playoffs",5
+167,2017,"14","Nick Hawkes","Matt Betz","Home","None",109,65,"Playoffs",5
+168,2017,"14","Derrick Parham","Josh Sexton","Home","None",60,78,"Playoffs",3
+168,2017,"14","Josh Sexton","Derrick Parham","Away","None",78,60,"Playoffs",3
+169,2017,"14","Kenneth Amaya","Nick Slawson","Away","None",100,87,"Playoffs",4
+169,2017,"14","Nick Slawson","Kenneth Amaya","Home","None",87,100,"Playoffs",4
+170,2017,"15","Nick Van Dyke","Ethan Brown","Home","None",76,123,"Playoffs",1
+170,2017,"15","Ethan Brown","Nick Van Dyke","Away","None",123,76,"Playoffs",1
+171,2017,"15","Michael Alexander","Dominic Decono","Home","None",84,98,"Playoffs",2
+171,2017,"15","Dominic Decono","Michael Alexander","Away","None",98,84,"Playoffs",2
+172,2017,"15","Matt Betz","Nick Hawkes","Away","None",80,78,"Playoffs",5
+172,2017,"15","Nick Hawkes","Matt Betz","Home","None",78,80,"Playoffs",5
+173,2017,"15","Derrick Parham","Josh Sexton","Home","None",80,96,"Playoffs",3
+173,2017,"15","Josh Sexton","Derrick Parham","Away","None",96,80,"Playoffs",3
+174,2017,"15","Kenneth Amaya","Nick Slawson","Away","None",105,76,"Playoffs",4
+174,2017,"15","Nick Slawson","Kenneth Amaya","Home","None",76,105,"Playoffs",4
+175,2017,"16","Ethan Brown","Dominic Decono","Away","None",102,85,"Playoffs",1
+175,2017,"16","Dominic Decono","Ethan Brown","Home","None",85,102,"Playoffs",1
+176,2017,"16","Michael Alexander","Nick Van Dyke","Away","None",72,102,"Playoffs",2
+176,2017,"16","Nick Van Dyke","Michael Alexander","Home","None",102,72,"Playoffs",2
+177,2017,"16","Matt Betz","Nick Slawson","Away","None",69,102,"Playoffs",5
+177,2017,"16","Nick Slawson","Matt Betz","Home","None",102,69,"Playoffs",5
+178,2017,"16","Kenneth Amaya","Josh Sexton","Away","None",78,76,"Playoffs",3
+178,2017,"16","Josh Sexton","Kenneth Amaya","Home","None",57,61,"Playoffs",3
+179,2017,"16","Derrick Parham","Nick Hawkes","Home","None",101,86,"Playoffs",4
+179,2017,"16","Nick Hawkes","Derrick Parham","Away","None",86,101,"Playoffs",4
+180,2017,"17","Ethan Brown","Dominic Decono","Away","None",66,67,"Playoffs",1
+180,2017,"17","Dominic Decono","Ethan Brown","Home","None",67,66,"Playoffs",1
+181,2017,"17","Michael Alexander","Nick Van Dyke","Away","None",55,87,"Playoffs",2
+181,2017,"17","Nick Van Dyke","Michael Alexander","Home","None",87,55,"Playoffs",2
+182,2017,"17","Matt Betz","Nick Slawson","Away","None",82,135,"Playoffs",5
+182,2017,"17","Nick Slawson","Matt Betz","Home","None",135,82,"Playoffs",5
+183,2017,"17","Kenneth Amaya","Josh Sexton","Away","None",78,76,"Playoffs",3
+183,2017,"17","Josh Sexton","Kenneth Amaya","Home","None",57,61,"Playoffs",3
+184,2017,"17","Derrick Parham","Nick Hawkes","Home","None",50,68,"Playoffs",4
+184,2017,"17","Nick Hawkes","Derrick Parham","Away","None",68,50,"Playoffs",4
+185,2017,"Playoffs1","Nick Van Dyke","Ethan Brown","Home","Lose",150,225,"Playoffs",1
+185,2017,"Playoffs1","Ethan Brown","Nick Van Dyke","Away","Win",225,150,"Playoffs",1
+186,2017,"Playoffs1","Michael Alexander","Dominic Decono","Home","Lose",169,206,"Playoffs",2
+186,2017,"Playoffs1","Dominic Decono","Michael Alexander","Away","Win",206,169,"Playoffs",2
+187,2017,"Playoffs1","Matt Betz","Nick Hawkes","Away","Lose",145,187,"Playoffs",5
+187,2017,"Playoffs1","Nick Hawkes","Matt Betz","Home","Win",187,145,"Playoffs",5
+188,2017,"Playoffs1","Derrick Parham","Josh Sexton","Home","Lose",140,174,"Playoffs",3
+188,2017,"Playoffs1","Josh Sexton","Derrick Parham","Away","Win",174,140,"Playoffs",3
+189,2017,"Playoffs1","Kenneth Amaya","Nick Slawson","Away","Win",205,163,"Playoffs",4
+189,2017,"Playoffs1","Nick Slawson","Kenneth Amaya","Home","Lose",163,205,"Playoffs",4
+190,2017,"Playoffs2","Ethan Brown","Dominic Decono","Away","Win",168,152,"Playoffs",1
+190,2017,"Playoffs2","Dominic Decono","Ethan Brown","Home","Lose",152,168,"Playoffs",1
+191,2017,"Playoffs2","Michael Alexander","Nick Van Dyke","Away","Lose",127,189,"Playoffs",2
+191,2017,"Playoffs2","Nick Van Dyke","Michael Alexander","Home","Win",189,127,"Playoffs",2
+192,2017,"Playoffs2","Matt Betz","Nick Slawson","Away","Lose",151,237,"Playoffs",5
+192,2017,"Playoffs2","Nick Slawson","Matt Betz","Home","Win",237,151,"Playoffs",5
+193,2017,"Playoffs2","Kenneth Amaya","Josh Sexton","Away","Win",174,131,"Playoffs",3
+193,2017,"Playoffs2","Josh Sexton","Kenneth Amaya","Home","Lose",131,174,"Playoffs",3
+194,2017,"Playoffs2","Derrick Parham","Nick Hawkes","Home","Lose",151,154,"Playoffs",4
+194,2017,"Playoffs2","Nick Hawkes","Derrick Parham","Away","Win",154,151,"Playoffs",4
+200,2018,"1","Kenneth Amaya","Matt Betz","Away","Lose",82,125.5,"Regular",NA
+200,2018,"1","Matt Betz","Kenneth Amaya","Home","Win",125.5,82,"Regular",NA
+201,2018,"1","Derrick Parham","Nick Hawkes","Away","Lose",71,120.5,"Regular",NA
+201,2018,"1","Nick Hawkes","Derrick Parham","Home","Win",120.5,71,"Regular",NA
+202,2018,"1","Michael Alexander","Nick Slawson","Away","Lose",107,149,"Regular",NA
+202,2018,"1","Nick Slawson","Michael Alexander","Home","Win",149,107,"Regular",NA
+203,2018,"1","Nick Van Dyke","Dominic Decono","Away","Win",156,89.5,"Regular",NA
+203,2018,"1","Dominic Decono","Nick Van Dyke","Home","Lose",89.5,156,"Regular",NA
+204,2018,"1","Ethan Brown","Josh Sexton","Away","Lose",108.5,140,"Regular",NA
+204,2018,"1","Josh Sexton","Ethan Brown","Home","Win",140,108.5,"Regular",NA
+205,2018,"2","Matt Betz","Nick Slawson","Home","Lose",95,96.5,"Regular",NA
+205,2018,"2","Nick Slawson","Matt Betz","Away","Win",96.5,95,"Regular",NA
+206,2018,"2","Michael Alexander","Nick Van Dyke","Home","Lose",105,112,"Regular",NA
+206,2018,"2","Nick Van Dyke","Michael Alexander","Away","Win",112,105,"Regular",NA
+207,2018,"2","Kenneth Amaya","Nick Hawkes","Home","Win",110.5,84,"Regular",NA
+207,2018,"2","Nick Hawkes","Kenneth Amaya","Away","Lose",84,110.5,"Regular",NA
+208,2018,"2","Derrick Parham","Ethan Brown","Away","Win",134.5,123,"Regular",NA
+208,2018,"2","Ethan Brown","Derrick Parham","Home","Lose",123,134.5,"Regular",NA
+209,2018,"2","Josh Sexton","Dominic Decono","Home","Lose",91,115.5,"Regular",NA
+209,2018,"2","Dominic Decono","Josh Sexton","Away","Win",115.5,91,"Regular",NA
+210,2018,"3","Matt Betz","Michael Alexander","Away","Lose",86.5,119.5,"Regular",NA
+210,2018,"3","Michael Alexander","Matt Betz","Home","Win",119.5,86.5,"Regular",NA
+211,2018,"3","Kenneth Amaya","Ethan Brown","Home","Lose",94,96.5,"Regular",NA
+211,2018,"3","Ethan Brown","Kenneth Amaya","Away","Win",96.5,94,"Regular",NA
+212,2018,"3","Nick Van Dyke","Josh Sexton","Home","Lose",109,113.5,"Regular",NA
+212,2018,"3","Josh Sexton","Nick Van Dyke","Away","Win",113.5,109,"Regular",NA
+213,2018,"3","Nick Hawkes","Nick Slawson","Home","Lose",95.5,118.5,"Regular",NA
+213,2018,"3","Nick Slawson","Nick Hawkes","Away","Win",118.5,95.5,"Regular",NA
+214,2018,"3","Derrick Parham","Dominic Decono","Home","Win",94.5,72,"Regular",NA
+214,2018,"3","Dominic Decono","Derrick Parham","Away","Lose",72,94.5,"Regular",NA
+215,2018,"4","Matt Betz","Josh Sexton","Home","Win",130,64,"Regular",NA
+215,2018,"4","Josh Sexton","Matt Betz","Away","Lose",64,130,"Regular",NA
+216,2018,"4","Kenneth Amaya","Nick Slawson","Away","Lose",122,151,"Regular",NA
+216,2018,"4","Nick Slawson","Kenneth Amaya","Home","Win",151,122,"Regular",NA
+217,2018,"4","Ethan Brown","Dominic Decono","Away","Win",142,135.5,"Regular",NA
+217,2018,"4","Dominic Decono","Ethan Brown","Home","Lose",135.5,142,"Regular",NA
+218,2018,"4","Nick Hawkes","Michael Alexander","Home","Lose",73.5,107,"Regular",NA
+218,2018,"4","Michael Alexander","Nick Hawkes","Away","Win",107,73.5,"Regular",NA
+219,2018,"4","Derrick Parham","Nick Van Dyke","Home","Win",121.5,85.5,"Regular",NA
+219,2018,"4","Nick Van Dyke","Derrick Parham","Away","Lose",85.5,121.5,"Regular",NA
+220,2018,"5","Matt Betz","Nick Hawkes","Home","Win",144,89,"Regular",NA
+220,2018,"5","Nick Hawkes","Matt Betz","Away","Lose",89,144,"Regular",NA
+221,2018,"5","Nick Slawson","Dominic Decono","Home","Win",121.5,119,"Regular",NA
+221,2018,"5","Dominic Decono","Nick Slawson","Away","Lose",119,121.5,"Regular",NA
+222,2018,"5","Derrick Parham","Josh Sexton","Away","Lose",100,108.5,"Regular",NA
+222,2018,"5","Josh Sexton","Derrick Parham","Home","Win",108.5,100,"Regular",NA
+223,2018,"5","Kenneth Amaya","Michael Alexander","Home","Win",105,93.5,"Regular",NA
+223,2018,"5","Michael Alexander","Kenneth Amaya","Away","Lose",93.5,105,"Regular",NA
+224,2018,"5","Nick Van Dyke","Ethan Brown","Away","Lose",102,110.5,"Regular",NA
+224,2018,"5","Ethan Brown","Nick Van Dyke","Home","Win",110.5,102,"Regular",NA
+225,2018,"6","Matt Betz","Ethan Brown","Away","Win",121.5,119.5,"Regular",NA
+225,2018,"6","Ethan Brown","Matt Betz","Home","Lose",119.5,121.5,"Regular",NA
+226,2018,"6","Derrick Parham","Michael Alexander","Home","Lose",103.5,105,"Regular",NA
+226,2018,"6","Michael Alexander","Derrick Parham","Away","Win",105,103.5,"Regular",NA
+227,2018,"6","Kenneth Amaya","Nick Van Dyke","Away","Lose",95.5,127,"Regular",NA
+227,2018,"6","Nick Van Dyke","Kenneth Amaya","Home","Win",127,95.5,"Regular",NA
+228,2018,"6","Nick Slawson","Josh Sexton","Away","Lose",84,97.5,"Regular",NA
+228,2018,"6","Josh Sexton","Nick Slawson","Home","Win",97.5,84,"Regular",NA
+229,2018,"6","Nick Hawkes","Dominic Decono","Away","Lose",99,141.5,"Regular",NA
+229,2018,"6","Dominic Decono","Nick Hawkes","Home","Win",141.5,99,"Regular",NA
+230,2018,"7","Matt Betz","Nick Van Dyke","Home","Win",100,86.5,"Regular",NA
+230,2018,"7","Nick Van Dyke","Matt Betz","Away","Lose",86.5,100,"Regular",NA
+231,2018,"7","Kenneth Amaya","Derrick Parham","Home","Lose",84.5,144.5,"Regular",NA
+231,2018,"7","Derrick Parham","Kenneth Amaya","Away","Win",144.5,84.5,"Regular",NA
+232,2018,"7","Nick Slawson","Ethan Brown","Home","Win",126.5,111,"Regular",NA
+232,2018,"7","Ethan Brown","Nick Slawson","Away","Lose",111,126.5,"Regular",NA
+233,2018,"7","Nick Hawkes","Josh Sexton","Home","Lose",60,123,"Regular",NA
+233,2018,"7","Josh Sexton","Nick Hawkes","Away","Win",123,60,"Regular",NA
+234,2018,"7","Michael Alexander","Dominic Decono","Home","Lose",92.5,123.5,"Regular",NA
+234,2018,"7","Dominic Decono","Michael Alexander","Away","Win",123.5,92.5,"Regular",NA
+235,2018,"8","Matt Betz","Derrick Parham","Away","Lose",104,145.5,"Regular",NA
+235,2018,"8","Derrick Parham","Matt Betz","Home","Win",145.5,104,"Regular",NA
+236,2018,"8","Nick Slawson","Nick Van Dyke","Away","Lose",69.5,148,"Regular",NA
+236,2018,"8","Nick Van Dyke","Nick Slawson","Home","Win",148,69.5,"Regular",NA
+237,2018,"8","Nick Hawkes","Ethan Brown","Away","Lose",90.5,132.5,"Regular",NA
+237,2018,"8","Ethan Brown","Nick Hawkes","Home","Win",132.5,90.5,"Regular",NA
+238,2018,"8","Michael Alexander","Josh Sexton","Away","Win",152,131,"Regular",NA
+238,2018,"8","Josh Sexton","Michael Alexander","Home","Lose",131,152,"Regular",NA
+239,2018,"8","Kenneth Amaya","Dominic Decono","Away","Lose",80.5,118,"Regular",NA
+239,2018,"8","Dominic Decono","Kenneth Amaya","Home","Win",118,80.5,"Regular",NA
+240,2018,"9","Matt Betz","Nick Hawkes","Away","Win",112.5,93,"Regular",NA
+240,2018,"9","Nick Hawkes","Matt Betz","Home","Lose",93,112.5,"Regular",NA
+241,2018,"9","Derrick Parham","Nick Slawson","Away","Lose",116.5,138,"Regular",NA
+241,2018,"9","Nick Slawson","Derrick Parham","Home","Win",138,116.5,"Regular",NA
+242,2018,"9","Nick Van Dyke","Dominic Decono","Home","Win",108,87.5,"Regular",NA
+242,2018,"9","Dominic Decono","Nick Van Dyke","Away","Lose",87.5,108,"Regular",NA
+243,2018,"9","Kenneth Amaya","Michael Alexander","Away","Lose",70.5,118.5,"Regular",NA
+243,2018,"9","Michael Alexander","Kenneth Amaya","Home","Win",118.5,70.5,"Regular",NA
+244,2018,"9","Ethan Brown","Josh Sexton","Home","Win",112.5,101.5,"Regular",NA
+244,2018,"9","Josh Sexton","Ethan Brown","Away","Lose",101.5,112.5,"Regular",NA
+245,2018,"10","Kenneth Amaya","Matt Betz","Home","Win",129.5,103.5,"Regular",NA
+245,2018,"10","Matt Betz","Kenneth Amaya","Away","Lose",103.5,129.5,"Regular",NA
+246,2018,"10","Nick Hawkes","Nick Van Dyke","Home","Lose",104,105.5,"Regular",NA
+246,2018,"10","Nick Van Dyke","Nick Hawkes","Away","Win",105.5,104,"Regular",NA
+247,2018,"10","Michael Alexander","Nick Slawson","Home","Win",109.5,102.5,"Regular",NA
+247,2018,"10","Nick Slawson","Michael Alexander","Away","Lose",102.5,109.5,"Regular",NA
+248,2018,"10","Derrick Parham","Ethan Brown","Home","Win",104.5,58,"Regular",NA
+248,2018,"10","Ethan Brown","Derrick Parham","Away","Lose",58,104.5,"Regular",NA
+249,2018,"10","Josh Sexton","Dominic Decono","Away","Win",142.5,102,"Regular",NA
+249,2018,"10","Dominic Decono","Josh Sexton","Home","Lose",102,142.5,"Regular",NA
+250,2018,"11","Matt Betz","Nick Slawson","Away","Win",113.5,107.5,"Regular",NA
+250,2018,"11","Nick Slawson","Matt Betz","Home","Lose",107.5,113.5,"Regular",NA
+251,2018,"11","Michael Alexander","Ethan Brown","Home","Win",124.5,104.5,"Regular",NA
+251,2018,"11","Ethan Brown","Michael Alexander","Away","Lose",104.5,124.5,"Regular",NA
+252,2018,"11","Kenneth Amaya","Nick Hawkes","Away","Lose",83,107,"Regular",NA
+252,2018,"11","Nick Hawkes","Kenneth Amaya","Home","Win",107,83,"Regular",NA
+253,2018,"11","Nick Van Dyke","Josh Sexton","Away","Lose",124,143.5,"Regular",NA
+253,2018,"11","Josh Sexton","Nick Van Dyke","Home","Win",143.5,124,"Regular",NA
+254,2018,"11","Derrick Parham","Dominic Decono","Away","Win",104.5,76.5,"Regular",NA
+254,2018,"11","Dominic Decono","Derrick Parham","Home","Lose",76.5,104.5,"Regular",NA
+255,2018,"12","Matt Betz","Michael Alexander","Away","Win",172.5,140,"Regular",NA
+255,2018,"12","Michael Alexander","Matt Betz","Home","Lose",140,172.5,"Regular",NA
+256,2018,"12","Kenneth Amaya","Josh Sexton","Home","Win",128.5,111.5,"Regular",NA
+256,2018,"12","Josh Sexton","Kenneth Amaya","Away","Lose",111.5,128.5,"Regular",NA
+257,2018,"12","Ethan Brown","Dominic Decono","Home","Win",135.5,93,"Regular",NA
+257,2018,"12","Dominic Decono","Ethan Brown","Away","Lose",93,135.5,"Regular",NA
+258,2018,"12","Nick Hawkes","Nick Slawson","Away","Lose",78,98,"Regular",NA
+258,2018,"12","Nick Slawson","Nick Hawkes","Home","Win",98,78,"Regular",NA
+259,2018,"12","Derrick Parham","Nick Van Dyke","Away","Win",113,95.5,"Regular",NA
+259,2018,"12","Nick Van Dyke","Derrick Parham","Home","Lose",95.5,113,"Regular",NA
+260,2018,"13","Matt Betz","Dominic Decono","Away","Lose",103.5,135,"Regular",NA
+260,2018,"13","Dominic Decono","Matt Betz","Home","Win",135,103.5,"Regular",NA
+261,2018,"13","Kenneth Amaya","Nick Slawson","Home","Lose",75,96.5,"Regular",NA
+261,2018,"13","Nick Slawson","Kenneth Amaya","Away","Win",96.5,75,"Regular",NA
+262,2018,"13","Derrick Parham","Josh Sexton","Home","Win",147.5,65.5,"Regular",NA
+262,2018,"13","Josh Sexton","Derrick Parham","Away","Lose",65.5,147.5,"Regular",NA
+263,2018,"13","Nick Hawkes","Michael Alexander","Away","Lose",82,94.5,"Regular",NA
+263,2018,"13","Michael Alexander","Nick Hawkes","Home","Win",94.5,82,"Regular",NA
+264,2018,"13","Nick Van Dyke","Ethan Brown","Home","Lose",105.5,111.5,"Regular",NA
+264,2018,"13","Ethan Brown","Nick Van Dyke","Away","Win",111.5,105.5,"Regular",NA
+265,2018,"14","Derrick Parham","Michael Alexander","Home","Win",94,85.5,"Playoffs",1
+265,2018,"14","Michael Alexander","Derrick Parham","Away","Lose",85.5,94,"Playoffs",1
+266,2018,"14","Matt Betz","Nick Slawson","Away","Win",171.5,117.5,"Playoffs",2
+266,2018,"14","Nick Slawson","Matt Betz","Home","Lose",117.5,171.5,"Playoffs",2
+267,2018,"14","Ethan Brown","Josh Sexton","Home","Win",84,73.5,"Playoffs",3
+267,2018,"14","Josh Sexton","Ethan Brown","Away","Lose",73.5,84,"Playoffs",3
+268,2018,"14","Dominic Decono","Nick Van Dyke","Away","Lose",99.5,121.5,"Playoffs",4
+268,2018,"14","Nick Van Dyke","Dominic Decono","Home","Win",121.5,99.5,"Playoffs",4
+269,2018,"14","Kenneth Amaya","Nick Hawkes","Home","Lose",77,91,"Playoffs",5
+269,2018,"14","Nick Hawkes","Kenneth Amaya","Away","Win",91,77,"Playoffs",5
+270,2018,"15","Derrick Parham","Michael Alexander","Home","Win",136,78.5,"Playoffs",1
+270,2018,"15","Michael Alexander","Derrick Parham","Away","Lose",78.5,136,"Playoffs",1
+271,2018,"15","Matt Betz","Nick Slawson","Away","Lose",76,93.5,"Playoffs",2
+271,2018,"15","Nick Slawson","Matt Betz","Home","Win",93.5,76,"Playoffs",2
+272,2018,"15","Ethan Brown","Josh Sexton","Home","Lose",47.5,90.5,"Playoffs",3
+272,2018,"15","Josh Sexton","Ethan Brown","Away","Win",90.5,47.5,"Playoffs",3
+273,2018,"15","Dominic Decono","Nick Van Dyke","Away","Win",103.5,77,"Playoffs",4
+273,2018,"15","Nick Van Dyke","Dominic Decono","Home","Lose",77,103.5,"Playoffs",4
+274,2018,"15","Kenneth Amaya","Nick Hawkes","Home","Win",114.5,60.5,"Playoffs",5
+274,2018,"15","Nick Hawkes","Kenneth Amaya","Away","Lose",60.5,114.5,"Playoffs",5
+275,2018,"16","Derrick Parham","Matt Betz","Home","Win",137,108,"Playoffs",1
+275,2018,"16","Matt Betz","Derrick Parham","Away","Lose",108,137,"Playoffs",1
+276,2018,"16","Michael Alexander","Nick Slawson","Away","Win",144,125,"Playoffs",2
+276,2018,"16","Nick Slawson","Michael Alexander","Home","Lose",125,144,"Playoffs",2
+277,2018,"16","Dominic Decono","Josh Sexton","Away","Win",106,82.5,"Playoffs",3
+277,2018,"16","Josh Sexton","Dominic Decono","Home","Lose",82.5,106,"Playoffs",3
+278,2018,"16","Ethan Brown","Kenneth Amaya","Home","Win",140,119,"Playoffs",4
+278,2018,"16","Kenneth Amaya","Ethan Brown","Away","Lose",119,140,"Playoffs",4
+279,2018,"16","Nick Hawkes","Nick Van Dyke","Away","Lose",41,159.5,"Playoffs",5
+279,2018,"16","Nick Van Dyke","Nick Hawkes","Home","Win",159.5,41,"Playoffs",5
+280,2018,"17","Derrick Parham","Matt Betz","Home","Win",118,90,"Playoffs",1
+280,2018,"17","Matt Betz","Derrick Parham","Away","Lose",90,118,"Playoffs",1
+281,2018,"17","Michael Alexander","Nick Slawson","Away","Win",118.5,113.5,"Playoffs",2
+281,2018,"17","Nick Slawson","Michael Alexander","Home","Lose",113.5,118.5,"Playoffs",2
+282,2018,"17","Dominic Decono","Josh Sexton","Away","Lose",48.5,128.5,"Playoffs",3
+282,2018,"17","Josh Sexton","Dominic Decono","Home","Win",128.5,48.5,"Playoffs",3
+283,2018,"17","Ethan Brown","Kenneth Amaya","Home","Lose",80,114,"Playoffs",4
+283,2018,"17","Kenneth Amaya","Ethan Brown","Away","Win",114,80,"Playoffs",4
+284,2018,"17","Nick Hawkes","Nick Van Dyke","Away","Win",59.5,51,"Playoffs",5
+284,2018,"17","Nick Van Dyke","Nick Hawkes","Home","Lose",51,59.5,"Playoffs",5
+285,2018,"Playoffs1","Michael Alexander","Derrick Parham","Away","Lose",164,230,"Playoffs",1
+285,2018,"Playoffs1","Derrick Parham","Michael Alexander","Home","Win",230,164,"Playoffs",1
+286,2018,"Playoffs1","Matt Betz","Nick Slawson","Away","Win",247.5,211,"Playoffs",2
+286,2018,"Playoffs1","Nick Slawson","Matt Betz","Home","Lose",211,247.5,"Playoffs",2
+287,2018,"Playoffs1","Josh Sexton","Ethan Brown","Away","Win",164,131.5,"Playoffs",3
+287,2018,"Playoffs1","Ethan Brown","Josh Sexton","Home","Lose",131.5,164,"Playoffs",3
+288,2018,"Playoffs1","Dominic Decono","Nick Van Dyke","Away","Win",203,198.5,"Playoffs",4
+288,2018,"Playoffs1","Nick Van Dyke","Dominic Decono","Home","Lose",198.5,203,"Playoffs",4
+289,2018,"Playoffs1","Nick Hawkes","Kenneth Amaya","Away","Lose",151.5,191.5,"Playoffs",5
+289,2018,"Playoffs1","Kenneth Amaya","Nick Hawkes","Home","Win",191.5,151.5,"Playoffs",5
+290,2018,"Playoffs2","Matt Betz","Derrick Parham","Away","Lose",198,255,"Playoffs",1
+290,2018,"Playoffs2","Derrick Parham","Matt Betz","Home","Win",255,198,"Playoffs",1
+291,2018,"Playoffs2","Michael Alexander","Nick Slawson","Away","Win",262.5,238.5,"Playoffs",2
+291,2018,"Playoffs2","Nick Slawson","Michael Alexander","Home","Lose",238.5,262.5,"Playoffs",2
+292,2018,"Playoffs2","Dominic Decono","Josh Sexton","Away","Lose",154.5,211,"Playoffs",3
+292,2018,"Playoffs2","Josh Sexton","Dominic Decono","Home","Win",211,154.5,"Playoffs",3
+293,2018,"Playoffs2","Kenneth Amaya","Ethan Brown","Away","Win",233,220,"Playoffs",4
+293,2018,"Playoffs2","Ethan Brown","Kenneth Amaya","Home","Lose",220,233,"Playoffs",4
+294,2018,"Playoffs2","Nick Hawkes","Nick Van Dyke","Away","Lose",100.5,210.5,"Playoffs",5
+294,2018,"Playoffs2","Nick Van Dyke","Nick Hawkes","Home","Win",210.5,100.5,"Playoffs",5
+300,2019,"1","Derrick Parham","Nick Hawkes","Away","Win",128.5,113,"Regular",NA
+300,2019,"1","Nick Hawkes","Derrick Parham","Home","Lose",113,128.5,"Regular",NA
+301,2019,"1","Michael Alexander","Nick Slawson","Away","Win",104.5,93.5,"Regular",NA
+301,2019,"1","Nick Slawson","Michael Alexander","Home","Lose",93.5,104.5,"Regular",NA
+302,2019,"1","Nick Van Dyke","Dominic Decono","Away","Lose",77.5,123.5,"Regular",NA
+302,2019,"1","Dominic Decono","Nick Van Dyke","Home","Win",123.5,77.5,"Regular",NA
+303,2019,"1","Kenneth Amaya","Matt Betz","Away","Win",155.5,91.5,"Regular",NA
+303,2019,"1","Matt Betz","Kenneth Amaya","Home","Lose",91.5,155.5,"Regular",NA
+304,2019,"1","Ethan Brown","Josh Sexton","Away","Lose",101.5,105,"Regular",NA
+304,2019,"1","Josh Sexton","Ethan Brown","Home","Win",105,101.5,"Regular",NA
+345,2019,"10","Nick Van Dyke","Nick Hawkes","Away","Win",122,97,"Regular",NA
+345,2019,"10","Nick Hawkes","Nick Van Dyke","Home","Lose",97,122,"Regular",NA
+346,2019,"10","Nick Slawson","Michael Alexander","Away","Win",155,88.5,"Regular",NA
+346,2019,"10","Michael Alexander","Nick Slawson","Home","Lose",88.5,155,"Regular",NA
+347,2019,"10","Ethan Brown","Derrick Parham","Away","Win",103.5,101,"Regular",NA
+347,2019,"10","Derrick Parham","Ethan Brown","Home","Lose",101,103.5,"Regular",NA
+348,2019,"10","Matt Betz","Kenneth Amaya","Away","Lose",96,103,"Regular",NA
+348,2019,"10","Kenneth Amaya","Matt Betz","Home","Win",103,96,"Regular",NA
+349,2019,"10","Josh Sexton","Dominic Decono","Away","Lose",97.5,124.5,"Regular",NA
+349,2019,"10","Dominic Decono","Josh Sexton","Home","Win",124.5,97.5,"Regular",NA
+350,2019,"11","Ethan Brown","Michael Alexander","Away","Win",131.5,99,"Regular",NA
+350,2019,"11","Michael Alexander","Ethan Brown","Home","Lose",99,131.5,"Regular",NA
+351,2019,"11","Kenneth Amaya","Nick Hawkes","Away","Lose",87.5,91,"Regular",NA
+351,2019,"11","Nick Hawkes","Kenneth Amaya","Home","Win",91,87.5,"Regular",NA
+352,2019,"11","Nick Van Dyke","Josh Sexton","Away","Lose",46,80.5,"Regular",NA
+352,2019,"11","Josh Sexton","Nick Van Dyke","Home","Win",80.5,46,"Regular",NA
+353,2019,"11","Matt Betz","Nick Slawson","Away","Lose",91.5,146,"Regular",NA
+353,2019,"11","Nick Slawson","Matt Betz","Home","Win",146,91.5,"Regular",NA
+354,2019,"11","Derrick Parham","Dominic Decono","Away","Lose",69.5,118,"Regular",NA
+354,2019,"11","Dominic Decono","Derrick Parham","Home","Win",118,69.5,"Regular",NA
+355,2019,"12","Josh Sexton","Kenneth Amaya","Away","Lose",77,127,"Regular",NA
+355,2019,"12","Kenneth Amaya","Josh Sexton","Home","Win",127,77,"Regular",NA
+356,2019,"12","Michael Alexander","Matt Betz","Away","Win",89.5,57,"Regular",NA
+356,2019,"12","Matt Betz","Michael Alexander","Home","Lose",57,89.5,"Regular",NA
+357,2019,"12","Dominic Decono","Ethan Brown","Away","Lose",79,83,"Regular",NA
+357,2019,"12","Ethan Brown","Dominic Decono","Home","Win",83,79,"Regular",NA
+358,2019,"12","Nick Hawkes","Nick Slawson","Away","Lose",110.5,140,"Regular",NA
+358,2019,"12","Nick Slawson","Nick Hawkes","Home","Win",140,110.5,"Regular",NA
+359,2019,"12","Derrick Parham","Nick Van Dyke","Away","Win",136,56.5,"Regular",NA
+359,2019,"12","Nick Van Dyke","Derrick Parham","Home","Lose",56.5,136,"Regular",NA
+360,2019,"13","Dominic Decono","Matt Betz","Away","Win",132.5,124.5,"Regular",NA
+360,2019,"13","Matt Betz","Dominic Decono","Home","Lose",124.5,132.5,"Regular",NA
+361,2019,"13","Nick Slawson","Kenneth Amaya","Away","Lose",80.5,95,"Regular",NA
+361,2019,"13","Kenneth Amaya","Nick Slawson","Home","Win",95,80.5,"Regular",NA
+362,2019,"13","Josh Sexton","Derrick Parham","Away","Lose",70.5,93.5,"Regular",NA
+362,2019,"13","Derrick Parham","Josh Sexton","Home","Win",93.5,70.5,"Regular",NA
+363,2019,"13","Nick Hawkes","Michael Alexander","Away","Lose",45,92.5,"Regular",NA
+363,2019,"13","Michael Alexander","Nick Hawkes","Home","Win",92.5,45,"Regular",NA
+364,2019,"13","Ethan Brown","Nick Van Dyke","Away","Win",128,109,"Regular",NA
+364,2019,"13","Nick Van Dyke","Ethan Brown","Home","Lose",109,128,"Regular",NA
+305,2019,"2","Nick Van Dyke","Michael Alexander","Away","Win",95,54.5,"Regular",NA
+305,2019,"2","Michael Alexander","Nick Van Dyke","Home","Lose",54.5,95,"Regular",NA
+306,2019,"2","Nick Hawkes","Kenneth Amaya","Away","Lose",111,122.5,"Regular",NA
+306,2019,"2","Kenneth Amaya","Nick Hawkes","Home","Win",122.5,111,"Regular",NA
+307,2019,"2","Derrick Parham","Ethan Brown","Away","Win",115,65,"Regular",NA
+307,2019,"2","Ethan Brown","Derrick Parham","Home","Lose",65,115,"Regular",NA
+308,2019,"2","Nick Slawson","Matt Betz","Away","Win",153.5,87,"Regular",NA
+308,2019,"2","Matt Betz","Nick Slawson","Home","Lose",87,153.5,"Regular",NA
+309,2019,"2","Dominic Decono","Josh Sexton","Away","Lose",93,129.5,"Regular",NA
+309,2019,"2","Josh Sexton","Dominic Decono","Home","Win",129.5,93,"Regular",NA
+310,2019,"3","Ethan Brown","Kenneth Amaya","Away","Win",105.5,105,"Regular",NA
+310,2019,"3","Kenneth Amaya","Ethan Brown","Home","Lose",105,105.5,"Regular",NA
+311,2019,"3","Matt Betz","Michael Alexander","Away","Lose",120,165,"Regular",NA
+311,2019,"3","Michael Alexander","Matt Betz","Home","Win",165,120,"Regular",NA
+312,2019,"3","Josh Sexton","Nick Van Dyke","Away","Win",102,78.5,"Regular",NA
+312,2019,"3","Nick Van Dyke","Josh Sexton","Home","Lose",78.5,102,"Regular",NA
+313,2019,"3","Nick Slawson","Nick Hawkes","Away","Win",106.5,84.5,"Regular",NA
+313,2019,"3","Nick Hawkes","Nick Slawson","Home","Lose",84.5,106.5,"Regular",NA
+314,2019,"3","Dominic Decono","Derrick Parham","Away","Lose",80.5,115.5,"Regular",NA
+314,2019,"3","Derrick Parham","Dominic Decono","Home","Win",115.5,80.5,"Regular",NA
+315,2019,"4","Josh Sexton","Matt Betz","Away","Lose",68.5,91.5,"Regular",NA
+315,2019,"4","Matt Betz","Josh Sexton","Home","Win",91.5,68.5,"Regular",NA
+316,2019,"4","Kenneth Amaya","Nick Slawson","Away","Lose",104,149.5,"Regular",NA
+316,2019,"4","Nick Slawson","Kenneth Amaya","Home","Win",149.5,104,"Regular",NA
+317,2019,"4","Ethan Brown","Dominic Decono","Away","Lose",68.5,113,"Regular",NA
+317,2019,"4","Dominic Decono","Ethan Brown","Home","Win",113,68.5,"Regular",NA
+318,2019,"4","Michael Alexander","Nick Hawkes","Away","Win",114.5,90,"Regular",NA
+318,2019,"4","Nick Hawkes","Michael Alexander","Home","Lose",90,114.5,"Regular",NA
+319,2019,"4","Nick Van Dyke","Derrick Parham","Away","Win",71.5,71,"Regular",NA
+319,2019,"4","Derrick Parham","Nick Van Dyke","Home","Lose",71,71.5,"Regular",NA
+320,2019,"5","Dominic Decono","Nick Slawson","Away","Lose",97.5,129.5,"Regular",NA
+320,2019,"5","Nick Slawson","Dominic Decono","Home","Win",129.5,97.5,"Regular",NA
+321,2019,"5","Nick Hawkes","Matt Betz","Away","Lose",105,126.5,"Regular",NA
+321,2019,"5","Matt Betz","Nick Hawkes","Home","Win",126.5,105,"Regular",NA
+322,2019,"5","Derrick Parham","Josh Sexton","Away","Win",137.5,97,"Regular",NA
+322,2019,"5","Josh Sexton","Derrick Parham","Home","Lose",97,137.5,"Regular",NA
+323,2019,"5","Michael Alexander","Kenneth Amaya","Away","Lose",56,141.5,"Regular",NA
+323,2019,"5","Kenneth Amaya","Michael Alexander","Home","Win",141.5,56,"Regular",NA
+324,2019,"5","Nick Van Dyke","Ethan Brown","Away","Win",118,62,"Regular",NA
+324,2019,"5","Ethan Brown","Nick Van Dyke","Home","Lose",62,118,"Regular",NA
+325,2019,"6","Michael Alexander","Derrick Parham","Away","Lose",74.5,99.5,"Regular",NA
+325,2019,"6","Derrick Parham","Michael Alexander","Home","Win",99.5,74.5,"Regular",NA
+326,2019,"6","Kenneth Amaya","Nick Van Dyke","Away","Lose",106.5,109.5,"Regular",NA
+326,2019,"6","Nick Van Dyke","Kenneth Amaya","Home","Win",109.5,106.5,"Regular",NA
+327,2019,"6","Matt Betz","Ethan Brown","Away","Win",93,62,"Regular",NA
+327,2019,"6","Ethan Brown","Matt Betz","Home","Lose",62,93,"Regular",NA
+328,2019,"6","Nick Slawson","Josh Sexton","Away","Win",150,118.5,"Regular",NA
+328,2019,"6","Josh Sexton","Nick Slawson","Home","Lose",118.5,150,"Regular",NA
+329,2019,"6","Nick Hawkes","Dominic Decono","Away","Win",104,89.5,"Regular",NA
+329,2019,"6","Dominic Decono","Nick Hawkes","Home","Lose",89.5,104,"Regular",NA
+330,2019,"7","Derrick Parham","Kenneth Amaya","Away","Lose",98.5,114.5,"Regular",NA
+330,2019,"7","Kenneth Amaya","Derrick Parham","Home","Win",114.5,98.5,"Regular",NA
+331,2019,"7","Nick Van Dyke","Matt Betz","Away","Win",84,83.5,"Regular",NA
+331,2019,"7","Matt Betz","Nick Van Dyke","Home","Lose",83.5,84,"Regular",NA
+332,2019,"7","Ethan Brown","Nick Slawson","Away","Lose",96,98,"Regular",NA
+332,2019,"7","Nick Slawson","Ethan Brown","Home","Win",98,96,"Regular",NA
+333,2019,"7","Josh Sexton","Nick Hawkes","Away","Lose",60,69.5,"Regular",NA
+333,2019,"7","Nick Hawkes","Josh Sexton","Home","Win",69.5,60,"Regular",NA
+334,2019,"7","Dominic Decono","Michael Alexander","Away","Lose",83.5,146,"Regular",NA
+334,2019,"7","Michael Alexander","Dominic Decono","Home","Win",146,83.5,"Regular",NA
+335,2019,"8","Matt Betz","Derrick Parham","Away","Lose",96,97.5,"Regular",NA
+335,2019,"8","Derrick Parham","Matt Betz","Home","Win",97.5,96,"Regular",NA
+336,2019,"8","Nick Slawson","Nick Van Dyke","Away","Win",134.5,120,"Regular",NA
+336,2019,"8","Nick Van Dyke","Nick Slawson","Home","Lose",120,134.5,"Regular",NA
+337,2019,"8","Nick Hawkes","Ethan Brown","Away","Lose",108.5,119,"Regular",NA
+337,2019,"8","Ethan Brown","Nick Hawkes","Home","Win",119,108.5,"Regular",NA
+338,2019,"8","Michael Alexander","Josh Sexton","Away","Win",162,105,"Regular",NA
+338,2019,"8","Josh Sexton","Michael Alexander","Home","Lose",105,162,"Regular",NA
+339,2019,"8","Kenneth Amaya","Dominic Decono","Away","Win",99,81.5,"Regular",NA
+339,2019,"8","Dominic Decono","Kenneth Amaya","Home","Lose",81.5,99,"Regular",NA
+340,2019,"9","Derrick Parham","Nick Slawson","Away","Win",120,118.5,"Regular",NA
+340,2019,"9","Nick Slawson","Derrick Parham","Home","Lose",118.5,120,"Regular",NA
+341,2019,"9","Matt Betz","Nick Hawkes","Away","Win",123,65,"Regular",NA
+341,2019,"9","Nick Hawkes","Matt Betz","Home","Lose",65,123,"Regular",NA
+342,2019,"9","Dominic Decono","Nick Van Dyke","Away","Win",116.5,96,"Regular",NA
+342,2019,"9","Nick Van Dyke","Dominic Decono","Home","Lose",96,116.5,"Regular",NA
+343,2019,"9","Kenneth Amaya","Michael Alexander","Away","Win",136,93.5,"Regular",NA
+343,2019,"9","Michael Alexander","Kenneth Amaya","Home","Lose",93.5,136,"Regular",NA
+344,2019,"9","Josh Sexton","Ethan Brown","Away","Win",102.5,69.5,"Regular",NA
+344,2019,"9","Ethan Brown","Josh Sexton","Home","Lose",69.5,102.5,"Regular",NA
+375,2019,"Playoffs1","Michael Alexander","Nick Slawson","Away","Lose",179,248,"Playoffs",1
+375,2019,"Playoffs1","Nick Slawson","Michael Alexander","Home","Win",248,179,"Playoffs",1
+376,2019,"Playoffs1","Derrick Parham","Kenneth Amaya","Away","Lose",214,221,"Playoffs",2
+376,2019,"Playoffs1","Kenneth Amaya","Derrick Parham","Home","Win",221,214,"Playoffs",2
+377,2019,"Playoffs1","Ethan Brown","Dominic Decono","Away","Lose",176,197,"Playoffs",3
+377,2019,"Playoffs1","Dominic Decono","Ethan Brown","Home","Win",197,176,"Playoffs",3
+378,2019,"Playoffs1","Josh Sexton","Nick Van Dyke","Away","Lose",177,224,"Playoffs",4
+378,2019,"Playoffs1","Nick Van Dyke","Josh Sexton","Home","Win",224,177,"Playoffs",4
+379,2019,"Playoffs1","Nick Hawkes","Matt Betz","Away","Lose",178,216,"Playoffs",5
+379,2019,"Playoffs1","Matt Betz","Nick Hawkes","Home","Win",216,178,"Playoffs",5
+390,2019,"Playoffs2","Kenneth Amaya","Nick Slawson","Away","Lose",239,240,"Playoffs",1
+390,2019,"Playoffs2","Nick Slawson","Kenneth Amaya","Home","Win",240,239,"Playoffs",1
+391,2019,"Playoffs2","Michael Alexander","Derrick Parham","Away","Win",278,181.5,"Playoffs",2
+391,2019,"Playoffs2","Derrick Parham","Michael Alexander","Home","Lose",181.5,278,"Playoffs",2
+392,2019,"Playoffs2","Nick Van Dyke","Dominic Decono","Away","Lose",188.5,202,"Playoffs",3
+392,2019,"Playoffs2","Dominic Decono","Nick Van Dyke","Home","Win",202,188.5,"Playoffs",3
+393,2019,"Playoffs2","Matt Betz","Ethan Brown","Away","Lose",190,238.5,"Playoffs",4
+393,2019,"Playoffs2","Ethan Brown","Matt Betz","Home","Win",238.5,190,"Playoffs",4
+394,2019,"Playoffs2","Nick Hawkes","Josh Sexton","Away","Lose",198,209.5,"Playoffs",5
+394,2019,"Playoffs2","Josh Sexton","Nick Hawkes","Home","Win",209.5,198,"Playoffs",5
+365,2019,"14","Michael Alexander","Nick Slawson","Away","Lose",88.5,119.5,"Playoffs",1
+365,2019,"14","Nick Slawson","Michael Alexander","Home","Win",119.5,88.5,"Playoffs",1
+366,2019,"14","Derrick Parham","Kenneth Amaya","Away","Lose",117,100,"Playoffs",2
+366,2019,"14","Kenneth Amaya","Derrick Parham","Home","Win",100,117,"Playoffs",2
+367,2019,"14","Ethan Brown","Dominic Decono","Away","Lose",67,90.5,"Playoffs",3
+367,2019,"14","Dominic Decono","Ethan Brown","Home","Win",90.5,67,"Playoffs",3
+368,2019,"14","Josh Sexton","Nick Van Dyke","Away","Lose",63.5,109.5,"Playoffs",4
+368,2019,"14","Nick Van Dyke","Josh Sexton","Home","Win",109.5,63.5,"Playoffs",4
+369,2019,"14","Nick Hawkes","Matt Betz","Away","Lose",93,123,"Playoffs",5
+369,2019,"14","Matt Betz","Nick Hawkes","Home","Win",123,93,"Playoffs",5
+370,2019,"15","Michael Alexander","Nick Slawson","Away","Lose",90.5,128.5,"Playoffs",1
+370,2019,"15","Nick Slawson","Michael Alexander","Home","Win",128.5,90.5,"Playoffs",1
+371,2019,"15","Derrick Parham","Kenneth Amaya","Away","Lose",97,121,"Playoffs",2
+371,2019,"15","Kenneth Amaya","Derrick Parham","Home","Win",121,97,"Playoffs",2
+372,2019,"15","Ethan Brown","Dominic Decono","Away","Lose",109,106.5,"Playoffs",3
+372,2019,"15","Dominic Decono","Ethan Brown","Home","Win",106.5,109,"Playoffs",3
+373,2019,"15","Josh Sexton","Nick Van Dyke","Away","Lose",113.5,114.5,"Playoffs",4
+373,2019,"15","Nick Van Dyke","Josh Sexton","Home","Win",114.5,113.5,"Playoffs",4
+374,2019,"15","Nick Hawkes","Matt Betz","Away","Lose",85,93,"Playoffs",5
+374,2019,"15","Matt Betz","Nick Hawkes","Home","Win",93,85,"Playoffs",5
+380,2019,"16","Kenneth Amaya","Nick Slawson","Away","Lose",119,124,"Playoffs",1
+380,2019,"16","Nick Slawson","Kenneth Amaya","Home","Win",124,119,"Playoffs",1
+381,2019,"16","Michael Alexander","Derrick Parham","Away","Win",120.5,80,"Playoffs",2
+381,2019,"16","Derrick Parham","Michael Alexander","Home","Lose",80,120.5,"Playoffs",2
+382,2019,"16","Nick Van Dyke","Dominic Decono","Away","Lose",88,73,"Playoffs",3
+382,2019,"16","Dominic Decono","Nick Van Dyke","Home","Win",73,88,"Playoffs",3
+383,2019,"16","Matt Betz","Ethan Brown","Away","Lose",88.5,122.5,"Playoffs",4
+383,2019,"16","Ethan Brown","Matt Betz","Home","Win",122.5,88.5,"Playoffs",4
+384,2019,"16","Nick Hawkes","Josh Sexton","Away","Lose",110.5,117,"Playoffs",5
+384,2019,"16","Josh Sexton","Nick Hawkes","Home","Win",117,110.5,"Playoffs",5
+385,2019,"17","Kenneth Amaya","Nick Slawson","Away","Lose",120,116,"Playoffs",1
+385,2019,"17","Nick Slawson","Kenneth Amaya","Home","Win",116,120,"Playoffs",1
+386,2019,"17","Michael Alexander","Derrick Parham","Away","Win",157.5,101.5,"Playoffs",2
+386,2019,"17","Derrick Parham","Michael Alexander","Home","Lose",101.5,157.5,"Playoffs",2
+387,2019,"17","Nick Van Dyke","Dominic Decono","Away","Lose",100.5,129,"Playoffs",3
+387,2019,"17","Dominic Decono","Nick Van Dyke","Home","Win",129,100.5,"Playoffs",3
+388,2019,"17","Matt Betz","Ethan Brown","Away","Lose",101.5,116,"Playoffs",4
+388,2019,"17","Ethan Brown","Matt Betz","Home","Win",116,101.5,"Playoffs",4
+389,2019,"17","Nick Hawkes","Josh Sexton","Away","Lose",87.5,92.5,"Playoffs",5
+389,2019,"17","Josh Sexton","Nick Hawkes","Home","Win",92.5,87.5,"Playoffs",5

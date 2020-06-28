@@ -6,8 +6,6 @@ library(sqldf)
 detach(package:purrr)
 library(purrr)
 
-path= 'C:\\Users\\t_mbentz\\OneDrive - AEG\\Personal\\ffb\\'
-
 swid = Sys.getenv('swid')
 espn_s2 = Sys.getenv('espn_s2')
 
@@ -78,7 +76,12 @@ Schedule =
   rename(AwayTeam = Manager) %>%
   left_join(TeamRecords %>% select(teamId, Manager), by = c("HomeTeam" = "teamId")) %>%
   select(-HomeTeam) %>%
-  rename(HomeTeam = Manager)
+  rename(HomeTeam = Manager) %>% 
+  mutate(Bracket = c(rep(NA,65),1:5,1:5),
+         Week = as.character(Week),
+         Week = as.character(case_when(Week == '14' ~ 'Playoffs1',
+                                       Week == '15' ~ 'Playoffs2',
+                                       TRUE ~ Week)))
 
 Schedule2 = rbind(Schedule %>% mutate(Manager = AwayTeam,
                                       GameCode = c(300:(299+nrow(Schedule)))),
@@ -94,9 +97,11 @@ Schedule2 = rbind(Schedule %>% mutate(Manager = AwayTeam,
          Outcome = case_when(TeamScore > OpponentScore ~ 'Win',
                              OpponentScore > TeamScore ~ 'Lose',
                              TRUE ~ 'Tie'),
-         Season = case_when(Week <= 13 ~ 'Regular',
-                            TRUE ~ 'Playoffs'),
-         Bracket = NA)
+         Season = case_when(str_detect(Week,'Playoffs')==TRUE ~ 'Playoffs',
+                            TRUE ~ 'Regular'),
+         GameCode = case_when(Week =='Playoffs1' ~ as.integer(GameCode + 10),
+                              Week == 'Playoffs2' ~ as.integer(GameCode + 20),
+                              TRUE ~ as.integer(GameCode)))
 
 Schedule3 = as_tibble(sqldf(
   'select s2.*
@@ -112,9 +117,9 @@ Schedule3 = as_tibble(sqldf(
 #####################
 #####################
 #####################
-# weeks=1
-# leagueID = "1000432"
-# year = "2019"
+weeks=17
+leagueID = "1000432"
+year = "2019"
 
 PositionDF =
   tibble(
@@ -148,11 +153,11 @@ teamiddf = TeamRecords %>%
   select(teamId, Manager, Team, Division) %>% 
   arrange(teamId)
 
-gofunction = function(weeks = 13, leagueID = "1000432",year = "2019"){
+gofunction = function(weeks = 17, leagueID = leagueID,year = year){
   
   playerperformance = NULL
   
-  for (i in 1:17) {
+  for (i in 1:weeks) {
     base = "http://fantasy.espn.com/apis/v3/games/ffl/seasons/"
     mid = "/segments/0/leagues/"
     tail = "?view=mMatchup&view=mMatchupScore&scoringPeriodId="
@@ -162,7 +167,7 @@ gofunction = function(weeks = 13, leagueID = "1000432",year = "2019"){
     ESPNGet$status_code
     ESPNRaw = rawToChar(ESPNGet$content)
     ESPNFromJSON = jsonlite::fromJSON(ESPNRaw)
-    
+
     players =
       ESPNFromJSON$teams$roster$entries %>% 
       map("playerPoolEntry") %>% 
@@ -203,29 +208,31 @@ gofunction = function(weeks = 13, leagueID = "1000432",year = "2019"){
     
     playerperformance = as_tibble(bind_rows(playerperformance, playerperformanceshort))
   }
-  
+
   playerperformance =
     playerperformance %>%
     select(-iteration, -seasonId) %>%
     distinct() %>% 
+    filter(statSplitTypeId != 2) %>% 
     mutate(ScoringType = case_when(scoringPeriodId > 0 & statSourceId == 1 ~ 'Predicted',
                                    scoringPeriodId > 0 & statSourceId == 0 ~ 'Actual',
+                                   scoringPeriodId == 0 & statSourceId == 0 & statSplitTypeId == 0 ~ 'Season_Total',
+                                   scoringPeriodId == 0 & statSourceId == 1 & statSplitTypeId == 0 ~ 'Preseason_Prediction',
                                    TRUE ~ as.character(NA)))
-  
-  playerperformance %>% arrange(scoringPeriodId,Player,statSourceId) %>%  filter(scoringPeriodId > 0) %>% View()
-write.csv(playerperformance,'PlayerScores.csv',row.names=FALSE)
+
+write.csv(playerperformance,paste0(year,'_PlayerScores.csv'),row.names=FALSE)
   ## gets team names and records
   PlayerTeamDF = NULL
   PlayerTeamDf = data.frame(Team = vector(),
                             Player = vector(),
                             playersrosterslot = vector(),
                             scoringPeriodId = vector())
-  
+
   for (i in 1:weeks) {
     base = "http://fantasy.espn.com/apis/v3/games/ffl/seasons/"
     year = year
     mid = "/segments/0/leagues/"
-    leagueID = "1000432"
+    leagueID = leagueID
     tail10 = "?view=mMatchup&view=mMatchupScore&scoringPeriodId="
     tail = "?view=mDraftDetail&view=mLiveScoring&view=mMatchupScore&view=mPendingTransactions&view=mPositionalRatings&view=mSettings&view=mTeam&view=modular&view=mNav&view=mMatchupScore&scoringPeriodId="
     url = paste0(base, year, mid, leagueID, tail, i)
@@ -272,36 +279,42 @@ write.csv(playerperformance,'PlayerScores.csv',row.names=FALSE)
     
     PlayerTeamDF = bind_rows(PlayerTeamDF, PlayerTeamDFshort)
   }
-  PlayerTeamDF %>% group_by(Team, scoringPeriodId) %>% summarise(Players = n()) %>% filter(Players != 16) %>% arrange(Team,scoringPeriodId)  
+
   ## adds team info to player dataframe
   
   PlayerPerformance =
     playerperformance %>%
     left_join(PlayerTeamDF, by = c("Player", "scoringPeriodId")) %>%
     as_tibble()
-  
+
   WeeklyEstimates =
-    PlayerPerformance %>% as.data.frame() %>%
+    PlayerPerformance %>% 
     # filter(Team == "'R'm Chair_Quarterback") %>%
-    filter(nchar(externalId) > 4) %>%
-    mutate(statSourceId = if_else(statSourceId == 1, "Predicted", "Actual")) %>%
+    filter(externalId != as.numeric(year)*10) %>%
+    #mutate(statSourceId = if_else(statSourceId == 1, "Predicted", "Actual")) %>%
     select(
       scoringPeriodId,
-      statSourceId,
+      ScoringType,
       appliedTotal,
       Player,
       Position,
       Team,
       playerrosterslot
     ) %>%
-    spread(statSourceId, appliedTotal) %>%
+    spread(ScoringType, appliedTotal) %>%
     arrange(Player) %>%
-    mutate(ActualMinusPredicted = Actual - Predicted) %>%
+    mutate(Actual = case_when(is.na(Actual) ~ 0,
+                              TRUE ~ Actual),
+      ActualMinusPredicted = Actual - Predicted) %>%
+    group_by(Player) %>% 
+    mutate(Preseason_Prediction = max(Preseason_Prediction,na.rm=TRUE),
+           Season_Total = max(Season_Total,na.rm=TRUE)) %>% 
+    ungroup() %>% 
     left_join(PlayerSlotIDs) %>%
     # filter(scoringPeriodId==1)
     # select(-playerrosterslot) %>%
     mutate(Starter = if_else(SlottedPosition %in% c("Bench", "IR"), "Bench", "Starter"))
-  
+
   #write_csv(WeeklyEstimates, "FantasyFootballData.csv")
   
   base = "http://fantasy.espn.com/apis/v3/games/ffl/seasons/"
@@ -325,15 +338,17 @@ write.csv(playerperformance,'PlayerScores.csv',row.names=FALSE)
     winner = ESPNFromJSON2$schedule$winner,
     weekID = ESPNFromJSON2$schedule$matchupPeriodId
   ) %>%
-    left_join(teamiddf, by = c("awayid"="teamId")) %>%
+    left_join((teamiddf %>% select(-Division)), by = c("awayid"="teamId")) %>%
     rename(AwayTeam = Team) %>%
-    left_join(teamiddf, by = c("homeid"="teamId")) %>%
+    left_join((teamiddf %>% select(-Division)), by = c("homeid"="teamId")) %>%
     rename(HomeTeam = Team) %>%
     mutate(winner = if_else(awaypoints>homepoints,AwayTeam,HomeTeam))
-  
+
   season =
     season1 %>% select(-awayid,-homeid) %>%
     gather(Location, Points, -winner, -weekID, -AwayTeam,-HomeTeam) %>%
+    mutate(Points = as.numeric(Points)) %>%
+    filter(!is.na(Points)) %>% 
     arrange(weekID) %>%
     group_by(weekID) %>%
     mutate(rank = rank(-Points)) %>%
@@ -350,6 +365,47 @@ write.csv(playerperformance,'PlayerScores.csv',row.names=FALSE)
 }
 
 gofunction(weeks = 17, leagueID = leagueID, year = year)
+
+flex = c('Tight End','Running Back','Wide Receiver')
+View(test %>% arrange(scoringPeriodId) %>% filter(Team == 'Luck of Lucy' & scoringPeriodId == 5))
+
+WeeklyEstimates %>% 
+  filter(scoringPeriodId > 0) %>% 
+  group_by(scoringPeriodId,Team,Position) %>% 
+  mutate(position_team_rank = rank(-Actual,ties.method = 'random'), 
+         select_flag = case_when(Position == 'Quarterback' & position_team_rank == 1 ~ 1,
+                                 Position == 'Defense' & position_team_rank == 1 ~ 1,
+                                 Position == 'Kicker' & position_team_rank == 1 ~ 1,
+                                 Position == 'Wide Receiver' & position_team_rank <= 2 ~ 1,
+                                 Position == 'Running Back' & position_team_rank <= 2 ~ 1,
+                                 Position == 'Tight End' & position_team_rank == 1 ~ 1,
+                                 TRUE ~ 0)) %>% 
+  ungroup() %>% 
+  group_by(scoringPeriodId,Team) %>% 
+  mutate(flex_flag = max(case_when(!is.na(Team) & select_flag == 0 & Position %in% flex ~ Actual),na.rm=TRUE),
+         flex_flag = case_when(flex_flag == Actual)),
+         select_flag = case_when(select_flag == 0 & flex_flag ==  ~ 1,)) %>% arrange(scoringPeriodId,Team,desc(select_flag),desc(Actual)) %>% View()
+
+test %>% filter(select_flag == 0 & flex_flag == Actual) %>% group_by(scoringPeriodId,Team) %>% summarise(rows = n()) %>% View()
+
+
+      TeamScore = sum(Actual),
+         Var = sum(ActualMinusPredicted)) %>%
+  ungroup() %>% 
+  group_by(scoringPeriodId,Team) %>% 
+  mutate(TotalScore = sum(TeamScore),
+         TotaVar = sum(Var))
+  
+  arrange(scoringPeriodId,Team,Starter) %>% View()
+
+
+Schedule3
+TeamRecords
+PlayerTeamDF
+playerperformance
+WeeklyEstimates
+season1
+season
 
 ###HTML Documents
 WeeklyEstimates = read_csv("FantasyFootballData.csv")

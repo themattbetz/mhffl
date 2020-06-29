@@ -1,0 +1,218 @@
+---
+title: "Fantasy Football Analytics"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: scroll
+    theme: readable
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+# Load Applicable Libraries ====================================================
+library(shiny)
+library(tidyverse)
+library(rvest)
+library(purrr)
+library(lubridate)
+library(RColorBrewer)
+#library(highcharter)
+library(flexdashboard)
+#library(leaflet)
+library(DT)
+library(gt)
+library(glue)
+library(highcharter)
+library(ggplot2)
+library(reshape2)
+#library(readr)
+
+game_results = as_tibble(read.csv('GameResults.csv',stringsAsFactors = FALSE))
+game_data = as_tibble(read.csv('PlayerResults.csv',stringsAsFactors = FALSE))
+teams = as_tibble(read.csv('teams.csv',stringsAsFactors = FALSE))
+```
+
+Introduction
+===================================== 
+Column {data-width=450}
+-----------------------------------------------------------------------
+### **Introduction**
+Welcome to the analytics page for the Mesa High Fantasy Football League, an ESPN league founded in 2011. The league has operated continually for each of the last eight NFL seasons, and, save a COVID-19-induced season cancellation, will be celebrating its ninth season this year. The first season saw eight teams before expanding to ten in the following season, and has remained a ten-team league since. The league is conveniently divided into two division - the Nick Division and the Non-Nick Division.
+
+At its core, this website is my own personal vanity project. No one asked for this. I'm not even sure anyone else looks at it. Maintaining this does not make my life any easier. In the past, I would write regular recaps of the league throughout the fantasy season, and I would incorporate whatever facts and figures that I could about player statistics both NFL and fantasy to make the the recaps more compelling. As I began to transition in my professional life away from education and into private industry, I knew I would need to grow my skills in data analysis and visual programming, and, in order to save myself from learning real visual scripting like Javascript, I committed to leaning on my background in R, SQL, and HTML to produce a product that provided dynamic outputs that would help tell a story about our fantasy league, even if that data is meaningless in the scope of understanding fantasy football.
+
+### **Reigning Champion - Nick Slawson**
+![2-time Champion Nick Slawson and the Potomac P.I.'s](2019_champ.jpg)
+
+
+Column {data-width=550}
+-----------------------------------------------------------------------
+
+### **League Participants**
+
+```{r}
+gt_tble = bind_cols((teams %>% filter(Division == 'Nick Division') %>% arrange(Owner)),
+          (teams %>% filter(Division == 'Non-Nick Division') %>% arrange(Owner))) %>% 
+  select(-Division,-Division1) %>% 
+  gt()
+
+gt_tble %>% 
+  tab_header(
+    title = md('**Mesa High Fantasy Football League**'),
+    subtitle = 'Team names as of 2019 season'
+  ) %>% 
+  tab_spanner(
+    label = 'Nick Division',
+    columns = vars(Owner,Team)
+  ) %>% 
+  tab_spanner(
+    label = 'Non-Nick Division',
+    columns = vars(Owner1,Team1)
+  ) %>% 
+  cols_label(
+    Owner1 = 'Owner',
+    Team1 = 'Team'
+  ) %>%   tab_source_note(
+    source_note = html('Source: <a href="https://fantasy.espn.com/football/league?leagueId=1000432">ESPN League Site<a/>')
+  )
+```
+
+### **League History**
+
+Team Results
+===================================== 
+Column {.sidebar}
+-----------------------------------------------------------------------
+To drill down on an individual team's season, please select a team from the list below.
+
+```{r First Input Panel}
+selectInput(inputId = 'name',label = 'Team',
+  choices = as.vector((teams %>% select(Owner) %>% arrange(Owner))[,1]))
+selectInput(inputId = 'season', label = 'Season',
+            choices = as.vector((game_results %>% select(Year) %>% unique() %>% arrange(Year))[,1]))
+
+```
+
+Column {data-width = 350}
+-----------------------------------------------------------------------
+### Season Results
+```{r game results, echo=FALSE}
+DT::renderDataTable(
+game_results %>% 
+  filter(Year == input$season,
+         Manager == input$name,
+         !Week %in% c(14,15,16,17)) %>%
+  arrange(GameCode) %>% 
+  select(-Year,-GameCode,-Manager,-Bracket,-Season) %>% 
+  DT::datatable(
+    rownames = FALSE,
+    options = list(
+      pageLength = 15,
+      paging = FALSE,
+      searching = FALSE,
+      ordering = FALSE),
+    editable = FALSE
+  )
+)
+```
+
+### Score by Week
+```{r weekly scores, echo=FALSE}
+
+renderHighchart({
+  game_results %>% 
+      filter(Year == input$season,
+             Manager == input$name,
+             !Week %in% c('Playoffs1','Playoffs2')) %>% 
+      mutate(Week = as.numeric(Week),
+             Scorer = input$name) %>% 
+      arrange(Week) %>%
+    select(Week,Manager,Opponent,TeamScore,OpponentScore,Scorer) %>% 
+    bind_rows(.,
+              (game_results %>% 
+                 filter(Year == input$season,
+                        Manager == input$name,
+                        !Week %in% c('Playoffs1','Playoffs2')) %>% 
+                 mutate(Week = as.numeric(Week)) %>% 
+                 arrange(Week) %>%
+                 select(Week,Manager,Opponent,TeamScore,OpponentScore) %>% 
+                 mutate(TeamScore = OpponentScore,
+                        Scorer = 'Opponent'))) %>%
+    select(-OpponentScore) %>% 
+    hchart('line',hcaes(x=Week,y=TeamScore,group = Scorer)) %>% 
+    hc_tooltip(pointFormat = 'Points = {point.y} <br> Opponent = {point.Opponent}') %>%
+    hc_xAxis(
+      tickInterval = 2,
+      min = 0,
+      max = max(game_results %>% filter(Year == input$season) %>% select(Week) %>% mutate(Week = as.numeric(Week)))
+    ) %>% 
+    hc_yAxis(
+      title = list(text = 'Score'))
+})
+```
+
+Column {data-width-750}
+-----------------------------------------------------------------------
+### Scoring By Position
+
+Position scoring data not available before 2017
+```{r Position scoring, echo=FALSE}
+
+renderHighchart({
+  
+data = game_data %>% 
+  filter(Season == input$season,
+         Starter == 'Starter') %>% 
+  group_by(Position) %>% 
+  mutate(League_Average_Points = mean(Points)) %>% 
+  ungroup() %>%
+  filter(Manager == input$name) %>% 
+  group_by(Position) %>% 
+  summarise(Team = round(mean(Points,na.rm=TRUE),2),
+            League = round(mean(League_Average_Points),2)) %>% 
+  melt() %>% 
+  rename(Type = variable,
+         Points = value) %>% 
+  mutate(order = case_when(Position == 'QB' ~ 1,
+                           Position == 'RB' ~ 2,
+                           Position == 'WR' ~ 3,
+                           Position == 'TE' ~ 4,
+                           Position == 'FLEX' ~ 5,
+                           Position == 'D/ST' ~ 6,
+                           Position == 'K' ~ 7)) %>% 
+  arrange(Type,order)
+
+hchart(data,"bar",hcaes(x=Position,y=Points,group=Type)) %>% 
+    #hc_add_theme(hc_theme_db()) %>% 
+    hc_tooltip(pointFormat = paste('{point.y}%')) %>%
+    hc_legend(enabled = F)
+})
+```
+
+### Scoring Variance by Week
+Data not available before 2018
+```{r residuals, echo=FALSE}
+renderHighchart({
+game_data %>% 
+  filter(!is.na(Predicted),
+         Season == input$season,
+         Manager == input$name,
+         Starter == 'Starter') %>% 
+  group_by(Week) %>% 
+  summarise(Total_Points = sum(Points),
+            Predicted_Points = sum(Predicted)) %>% 
+  melt(id = 'Week') %>% 
+  rename(Type = variable,
+         Points = value) %>% 
+  mutate(Week = as.factor(Week)) %>% 
+  as_tibble() %>% 
+  hchart('line',hcaes(x=Week,y=Points,group=Type)) %>% 
+    hc_tooltip(pointFormat = paste('{point.y}')) %>%
+    hc_xAxis(
+      tickInterval = 2,
+      min = 0,
+      max = max(game_results %>% filter(Year == input$season) %>% select(Week) %>% mutate(Week = as.numeric(Week)))
+    ) %>% 
+    hc_yAxis(
+      title = list(text = 'Points'))
+})

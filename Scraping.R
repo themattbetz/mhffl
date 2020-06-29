@@ -2,7 +2,7 @@ library(tidyverse)
 library(httr)
 library(jsonlite)
 library(sqldf)
-
+library(gt)
 detach(package:purrr)
 library(purrr)
 
@@ -61,6 +61,12 @@ TeamRecords = TeamRecords %>%
   )) %>% 
   select(3,11,2,1,4:10) %>% 
   arrange(rank)
+
+TeamRecords2 = TeamRecords %>% 
+  select(Manager,Division,Team) %>% 
+  rename(Owner = Manager)
+
+write.csv(TeamRecords2,'teams.csv',row.names=FALSE)
 
 Schedule =
   tibble(

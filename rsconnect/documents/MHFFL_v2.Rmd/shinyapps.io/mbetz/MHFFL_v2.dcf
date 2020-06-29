@@ -1,0 +1,12 @@
+name: MHFFL_v2
+title: MHFFL_v2
+username:
+account: mbetz
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2514493
+bundleId: 3327284
+url: https://mbetz.shinyapps.io/MHFFL_v2/
+when: 1593390513.12417
+asMultiple: FALSE
+asStatic: FALSE

@@ -94,7 +94,7 @@ Column {.sidebar}
 
 ```{r First Input Panel}
 selectInput(inputId = 'resultsseason', label = 'Season',
-            choices = as.vector((game_results %>% select(Year) %>% unique() %>% filter(Year != 2015) %>% arrange(Year))[,1]))
+            choices = as.vector((game_results %>% select(Year) %>% unique() %>% filter(Year != 2015) %>% arrange(desc(Year)))[,1]))
 ```
 
 Column
@@ -158,7 +158,7 @@ To drill down on an individual team's season, please select a team from the list
 selectInput(inputId = 'name',label = 'Team',
   choices = as.vector((teams %>% select(Manager) %>% arrange(Manager))[,1]))
 selectInput(inputId = 'season', label = 'Season',
-            choices = as.vector((game_results %>% select(Year) %>% unique() %>% arrange(Year))[,1]))
+            choices = as.vector((game_results %>% select(Year) %>% unique() %>% arrange(desc(Year)))[,1]))
 
 ```
 

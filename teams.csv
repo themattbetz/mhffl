@@ -1,11 +1,11 @@
-"Owner","Division","Team"
-"Nick Slawson","Nick Division","Potomac P.I.'s"
-"Kenneth Amaya","Non-Nick Division","Brookline Satanic Turkeys"
-"Michael Alexander","Non-Nick Division","Always Filling RXes"
-"Derrick Parham","Non-Nick Division","Luck of Lucy"
-"Dominic Decono","Non-Nick Division","Calcified Kankers"
-"Nick Van Dyke","Nick Division","Arizona Fear Bâºners"
-"Ethan Brown","Non-Nick Division","Dont Touch My Butker"
-"Matt Betz","Nick Division","Hollywoo Stars n Celebs"
-"Josh Sexton","Nick Division","Appalachian BeerMen"
-"Nick Hawkes","Nick Division","Gould is Gold"
+"teamId","Manager","Division","Team","wins","losses","Percent","points_for","points_against","seed","rank"
+4,"Nick Slawson","Nick Division","Potomac P.I.'s",10,3,0.769230769230769,1655,1317.5,1,1
+5,"Kenneth Amaya","Non-Nick Division","Brookline Satanic Turkeys",9,4,0.692307692307692,1497,1241,2,2
+2,"Michael Alexander","Non-Nick Division","Always Filling RXes",7,6,0.538461538461538,1340,1352.5,4,3
+7,"Derrick Parham","Non-Nick Division","Luck of Lucy",9,4,0.692307692307692,1383,1179,3,4
+10,"Dominic Decono","Non-Nick Division","Calcified Kankers",6,7,0.461538461538462,1332.5,1340,5,5
+6,"Nick Van Dyke","Nick Division","Arizona Fear Bâºners",6,7,0.461538461538462,1183.5,1295.5,7,6
+8,"Ethan Brown","Non-Nick Division","Dont Touch My Butker",6,7,0.461538461538462,1195,1346,6,7
+3,"Matt Betz","Nick Division","Hollywoo Stars n Celebs",4,9,0.307692307692308,1281,1427,9,8
+9,"Josh Sexton","Nick Division","Appalachian BeerMen",5,8,0.384615384615385,1213.5,1344,8,9
+1,"Nick Hawkes","Nick Division","Gould is Gold",3,10,0.230769230769231,1194,1432,10,10

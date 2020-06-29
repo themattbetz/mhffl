@@ -7,6 +7,15 @@ output:
     theme: readable
 runtime: shiny
 ---
+<style>                     
+.navbar {
+  background-color:green;
+  border-color:green;
+}
+.navbar-brand {
+color:black!important;
+}
+</style>    
 
 ```{r setup, include=FALSE}
 # Load Applicable Libraries ====================================================
@@ -51,8 +60,8 @@ Column {data-width=550}
 ### **League Participants**
 
 ```{r}
-gt_tble = bind_cols((teams %>% filter(Division == 'Nick Division') %>% arrange(Owner)),
-          (teams %>% filter(Division == 'Non-Nick Division') %>% arrange(Owner))) %>% 
+gt_tble = bind_cols((teams %>% select(Manager,Division,Team) %>% rename(Owner = Manager) %>% filter(Division == 'Nick Division') %>% arrange(Owner)),
+          (teams %>% select(Manager,Division,Team) %>% rename(Owner = Manager) %>% filter(Division == 'Non-Nick Division') %>% arrange(Owner))) %>% 
   select(-Division,-Division1) %>% 
   gt()
 
@@ -79,21 +88,81 @@ gt_tble %>%
 
 ### **League History**
 
+Season Results
+===================================== 
+Column {.sidebar}
+
+```{r First Input Panel}
+selectInput(inputId = 'resultsseason', label = 'Season',
+            choices = as.vector((game_results %>% select(Year) %>% unique() %>% filter(Year != 2015) %>% arrange(Year))[,1]))
+```
+
+Column
+-----------------------------------------------------------------------
+### Season Standings
+
+```{r Season Results,echo=FALSE}
+render_gt(
+  game_results %>% 
+    group_by(Year,Manager) %>% 
+    mutate(PF = sum(TeamScore,na.rm=TRUE),
+           PA = sum(OpponentScore,na.rm=TRUE)) %>% 
+    ungroup() %>% 
+    filter(Year == input$resultsseason,
+           Week == 'Playoffs2') %>% 
+    arrange(desc(CumulativeWins),desc(PF)) %>% 
+    mutate(`Final Rank` = case_when(Outcome == 'Win' ~ Bracket*2-1,
+                                    TRUE ~ Bracket*2),
+           Seed = row_number()) %>% 
+    left_join(.,(teams %>% select(Manager,Team)),by='Manager') %>% 
+    select(Manager,CumulativeWins,CumulativeLosses,PF,PA,Seed,`Final Rank`) %>% 
+    rename(W = CumulativeWins,
+           L = CumulativeLosses) %>% 
+    arrange(`Final Rank`) %>% 
+    gt() %>% 
+    tab_style(
+      style = list(
+        cell_fill(color = 'gold'),
+        cell_text(weight = 'bold')
+      ),
+      locations = cells_body(
+        rows = `Final Rank` == 1
+      )
+    ) %>% 
+    tab_style(
+      style = list(
+        cell_fill(color = '#C0C0C0')
+      ),
+      locations = cells_body(
+        rows = `Final Rank` == 2
+      )
+    ) %>% 
+    tab_style(
+      style = list(
+        cell_fill(color = '#CD7F32')
+      ),
+      locations = cells_body(
+        rows = `Final Rank` == 3
+      )
+    )
+)
+```
+
 Team Results
 ===================================== 
 Column {.sidebar}
 -----------------------------------------------------------------------
 To drill down on an individual team's season, please select a team from the list below.
 
-```{r First Input Panel}
+```{r Second Input Panel}
 selectInput(inputId = 'name',label = 'Team',
-  choices = as.vector((teams %>% select(Owner) %>% arrange(Owner))[,1]))
+  choices = as.vector((teams %>% select(Manager) %>% arrange(Manager))[,1]))
 selectInput(inputId = 'season', label = 'Season',
             choices = as.vector((game_results %>% select(Year) %>% unique() %>% arrange(Year))[,1]))
 
 ```
 
-Column {data-width = 350}
+Column
 -----------------------------------------------------------------------
 ### Season Results
 ```{r game results, echo=FALSE}
@@ -101,7 +170,10 @@ DT::renderDataTable(
 game_results %>% 
   filter(Year == input$season,
          Manager == input$name,
-         !Week %in% c(14,15,16,17)) %>%
+         !Week %in% c(14,15,16,17)) %>% 
+  select(-CumulativeWins,-CumulativeLosses,-LTCW,-LTCL) %>% 
+  # rename(W = CumulativeWins,
+  #        L = CumulativeLosses) %>%
   arrange(GameCode) %>% 
   select(-Year,-GameCode,-Manager,-Bracket,-Season) %>% 
   DT::datatable(
@@ -169,7 +241,7 @@ data = game_data %>%
   filter(Manager == input$name) %>% 
   group_by(Position) %>% 
   summarise(Team = round(mean(Points,na.rm=TRUE),2),
-            League = round(mean(League_Average_Points),2)) %>% 
+            League = round(mean(League_Average_Points,na.rm=TRUE),2)) %>% 
   melt() %>% 
   rename(Type = variable,
          Points = value) %>% 
@@ -184,7 +256,7 @@ data = game_data %>%
 
 hchart(data,"bar",hcaes(x=Position,y=Points,group=Type)) %>% 
     #hc_add_theme(hc_theme_db()) %>% 
-    hc_tooltip(pointFormat = paste('{point.y}%')) %>%
+    hc_tooltip(pointFormat = paste('{point.y}')) %>%
     hc_legend(enabled = F)
 })
 ```
@@ -200,19 +272,20 @@ game_data %>%
          Starter == 'Starter') %>% 
   group_by(Week) %>% 
   summarise(Total_Points = sum(Points),
-            Predicted_Points = sum(Predicted)) %>% 
+            Predicted_Points = round(sum(Predicted),0)) %>% 
   melt(id = 'Week') %>% 
   rename(Type = variable,
          Points = value) %>% 
   mutate(Week = as.factor(Week)) %>% 
   as_tibble() %>% 
   hchart('line',hcaes(x=Week,y=Points,group=Type)) %>% 
-    hc_tooltip(pointFormat = paste('{point.y}')) %>%
+    hc_tooltip(pointFormat = paste('{series.name} : {point.y}')) %>%
     hc_xAxis(
       tickInterval = 2,
       min = 0,
       max = max(game_results %>% filter(Year == input$season) %>% select(Week) %>% mutate(Week = as.numeric(Week)))
     ) %>% 
     hc_yAxis(
-      title = list(text = 'Points'))
+      title = list(text = 'Points')) %>% 
+      hc_colors(colors = c('lightgreen','red'))
 })
